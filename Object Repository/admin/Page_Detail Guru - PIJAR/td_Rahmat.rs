@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_btnDelete</name>
+   <name>td_Rahmat</name>
    <tag></tag>
-   <elementGuidId>d4a8b707-23a2-4e0b-a844-9b3e28c6faae</elementGuidId>
+   <elementGuidId>fc7b8f2f-24d1-44ed-9226-7906b52b46e5</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='jono@gmail.com'])[1]/following::button[3]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/main/div/div/div[3]/div/table/tbody/tr/td[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>h-8 w-8 hover:bg-gray-300 text-gray-800 font-bold p-2 rounded inline-flex items-center ml-1</value>
+      <value>td</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>btnDownloadFile</value>
+      <value>Rahmat</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/span[9]/div[1]/div[@class=&quot;_3ur-9FoKvlJzebvQwgp3BU overflow-hidden&quot;]/div[@class=&quot;_1KYwPzP7jpQs7bvCBJ0X9i ngc58A8zYGwhYqFiwCkgI&quot;]/div[1]/table[@class=&quot;_2bk-8w39AM_o_zOqlN-e2u _29lmePhVg0aamvZFs3c9jw&quot;]/tbody[1]/tr[2]/td[@class=&quot;text-center whitespace-normal&quot;]/div[@class=&quot;flex&quot;]/button[@id=&quot;btnDownloadFile&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_1VOzFTcmVMs3m2U0ynoh9H&quot;]/div[@class=&quot;flex flex-col justify-center mt-20&quot;]/table[@class=&quot;_2NxJf7sE2IVq4L7HzycoWL&quot;]/tbody[1]/tr[1]/td[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@id='btnDownloadFile'])[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/span[9]/div/div[2]/div/div/table/tbody/tr[2]/td[6]/div/button[3]</value>
+      <value>//div[@id='app']/main/div/div/div[3]/div/table/tbody/tr/td[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='jono@gmail.com'])[1]/following::button[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[1]/following::td[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value></value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Guru'])[1]/following::td[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value></value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NIP'])[1]/preceding::td[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value></value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[2]/preceding::td[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Rahmat']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[6]/div/button[3]</value>
+      <value>//td[3]</value>
    </webElementXpaths>
 </WebElementEntity>

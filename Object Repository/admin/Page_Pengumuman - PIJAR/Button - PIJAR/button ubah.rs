@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_btnDelete</name>
+   <name>button ubah</name>
    <tag></tag>
-   <elementGuidId>d4a8b707-23a2-4e0b-a844-9b3e28c6faae</elementGuidId>
+   <elementGuidId>52c47fba-9715-4f78-bb4a-64f5dcb66758</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='jono@gmail.com'])[1]/following::button[3]</value>
+         <key>CSS</key>
+         <value>#btnDownloadFile</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@id='btnDownloadFile']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,55 +42,55 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/span[9]/div[1]/div[@class=&quot;_3ur-9FoKvlJzebvQwgp3BU overflow-hidden&quot;]/div[@class=&quot;_1KYwPzP7jpQs7bvCBJ0X9i ngc58A8zYGwhYqFiwCkgI&quot;]/div[1]/table[@class=&quot;_2bk-8w39AM_o_zOqlN-e2u _29lmePhVg0aamvZFs3c9jw&quot;]/tbody[1]/tr[2]/td[@class=&quot;text-center whitespace-normal&quot;]/div[@class=&quot;flex&quot;]/button[@id=&quot;btnDownloadFile&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/span[15]/div[1]/div[@class=&quot;OJpSVsbMpWvOJgiRoZpPu overflow-hidden&quot;]/div[@class=&quot;_1KYwPzP7jpQs7bvCBJ0X9i PukzAFo13NeR7G-5HbcYo&quot;]/div[1]/table[@class=&quot;_2bk-8w39AM_o_zOqlN-e2u _29lmePhVg0aamvZFs3c9jw&quot;]/tbody[1]/tr[1]/td[@class=&quot;text-center whitespace-normal  break-words&quot;]/div[1]/button[@id=&quot;btnDownloadFile&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@id='btnDownloadFile'])[4]</value>
+      <value>//button[@id='btnDownloadFile']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/span[9]/div/div[2]/div/div/table/tbody/tr[2]/td[6]/div/button[3]</value>
+      <value>//div[@id='app']/main/div/span[15]/div/div[2]/div/div/table/tbody/tr/td[5]/div/button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='jono@gmail.com'])[1]/following::button[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mencoba test pengumuman menambah data'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value></value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mencoba Data Pengumuman'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value></value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kegiatan'])[1]/preceding::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value></value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upacara Bendera Merah Putih'])[1]/preceding::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[6]/div/button[3]</value>
+      <value>//button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

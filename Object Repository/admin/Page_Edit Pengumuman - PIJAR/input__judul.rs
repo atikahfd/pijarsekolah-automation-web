@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__tanggalLahir</name>
+   <name>input__judul</name>
    <tag></tag>
-   <elementGuidId>5088bf3c-101c-41a3-8673-06e1a6dddcd1</elementGuidId>
-   <imagePath></imagePath>
+   <elementGuidId>86b994ab-e24a-4216-8ffb-5358a3273f69</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @name = 'tanggalLahir' and @placeholder = 'Pilih Tanggal']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>input[name=&quot;tanggalLahir&quot;]</value>
+         <value>input[name=&quot;judul&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='tanggalLahir']</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <value>//input[@name='judul']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,6 +24,27 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bordered block w-11/12 md:w-8/12</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>judul</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Isi Judul Kegiatan</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
@@ -40,52 +52,38 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>tanggalLahir</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Pilih Tanggal</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>16/02/2021</value>
+      <value>Mencoba Data Pengumuman</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[@class=&quot;_7nsRr_QjvLVS5mrhCXSdR&quot;]/form[@class=&quot;flex flex-wrap&quot;]/div[@class=&quot;w-full lg:w-1/2 lg:p-2&quot;]/div[@class=&quot;ayTJSmOMnWBPs3BtaGkss&quot;]/div[@class=&quot;NtVGj4AHlUmLsfaEJ7ejF&quot;]/div[@class=&quot;_1A2OhDosorRz8GiYAOnYCw bordered block w-full italic flex&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;react-datepicker-wrapper&quot;]/div[@class=&quot;react-datepicker__input-container&quot;]/input[1]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_2K1qjyO_eWI_U21ZbwVQEs&quot;]/form[1]/div[@class=&quot;ir8EAVSRHFnI-KMJQlvoR&quot;]/div[@class=&quot;_3yYax7yws6F8GDH9HpqdBF&quot;]/input[@class=&quot;bordered block w-11/12 md:w-8/12&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='tanggalLahir']</value>
+      <value>//input[@name='judul']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/form/div/div[4]/div[2]/div/div/div/div/input</value>
+      <value>//div[@id='app']/main/div/div/div[2]/form/div[2]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/div/input</value>
+      <value>//div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

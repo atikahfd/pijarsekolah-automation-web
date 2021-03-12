@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+<<<<<<< HEAD:Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat menambahkan data guru.tc
+   <name>Pastikan user dapat menambahkan data guru</name>
+=======
+   <name>TC001-Pastikan user dapat mengakses pengumuman</name>
+>>>>>>> 8c7f5377b6d17e983b52784fcb530bebe783ad9b:Test Cases/SIM-admin/pengumuman/positive cases/TC001-Pastikan user dapat mengakses pengumuman.tc
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c9ef47b-0f2d-4f5e-aecf-d0cf77f0d955</testCaseGuid>
+</TestCaseEntity>
