@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User admin tidak dapat menyimpan mata pelalajaran jika karakter kode mapel melebihi 10 karakter</description>
+   <name>Validasi karakter kode mata pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afbeb8fd-2599-44b4-b80f-e31061949f51</testCaseGuid>
+</TestCaseEntity>

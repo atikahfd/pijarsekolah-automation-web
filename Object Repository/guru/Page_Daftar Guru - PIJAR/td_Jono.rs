@@ -6,6 +6,10 @@
    <elementGuidId>1137e809-8afe-4729-9908-82a2217996c8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'Jono' or . = 'Jono')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/main/div/span[9]/div/div[2]/div/table/tbody/tr/td[3]</value>
       </entry>
@@ -13,15 +17,11 @@
          <key>CSS</key>
          <value></value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Jono' or . = 'Jono')]</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

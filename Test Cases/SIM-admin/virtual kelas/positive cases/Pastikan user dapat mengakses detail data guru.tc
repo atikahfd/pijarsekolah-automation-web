@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User admin dapat melihat detail data guru</description>
+   <name>Pastikan user dapat mengakses detail data guru</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78c3c5b1-f2de-4002-b929-a2f4310ea607</testCaseGuid>
+</TestCaseEntity>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User admin dapat menambahkan daftar mata pelajaran</description>
    <name>Pastikan user dapat menambahkan data mata pelajaran</name>
    <tag></tag>
    <comment></comment>

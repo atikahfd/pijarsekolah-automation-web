@@ -30,7 +30,6 @@ WebUI.setText(findTestObject('admin/Page_Daftar Guru - PIJAR/input_Tambah Data_s
 WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_btnDetail'))
 
 'User click button "Kembali"'
-
 WebUI.click(findTestObject('admin/Page_Detail Guru - PIJAR/button_Kembali'))
 
 WebUI.refresh()

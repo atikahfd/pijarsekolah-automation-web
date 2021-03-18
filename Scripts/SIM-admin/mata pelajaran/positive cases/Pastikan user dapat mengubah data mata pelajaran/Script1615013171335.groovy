@@ -15,23 +15,44 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+'User click Akademik on side menu\r'
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Akademik'))
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
-        , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.focus(findTestObject('admin/Page_Beranda - PIJAR/span_Akademik'))
-
+'User click Daftar Pelajaran on side menu\r'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Daftar Pelajaran'))
 
+'User set text input search untuk find mata pelajaran : Ilmu Pengetahuan Alam'
+WebUI.setText(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/input_search mata pelajaran'), 'Ilmu pengetahuan alam')
+
+'User click icon "pencil"'
 WebUI.click(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/DUD/button_btnEdit'))
 
-WebUI.setText(findTestObject('admin/Page_Edit Daftar Pelajaran - PIJAR/input_Mata Pelajaran_namaMapel'), 'Ilmu Pengetahuan Alam Bagian 1')
+'User hapus text mata pelajaran'
+WebUI.sendKeys(findTestObject('admin/Page_Edit Daftar Pelajaran - PIJAR/input__mataPelajaran'), Keys.chord(Keys.CONTROL, 
+        'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Daftar Pelajaran - PIJAR/textarea_Ilmu Pengetahun Alam'), 'Ilmu Pengetahun Alam Bagian 1')
+'User set text input mata pelajaran : Ilmu Pengetahuan Alam Bagian 2'
+WebUI.setText(findTestObject('admin/Page_Edit Daftar Pelajaran - PIJAR/input__mataPelajaran'), 'Ilmu Pengetahuan Alam Bagian 2')
 
+'User hapus text deskripsi mata pelajaran'
+WebUI.sendKeys(findTestObject('admin/Page_Edit Daftar Pelajaran - PIJAR/textarea_Ilmu Pengetahun Alam'), Keys.chord(Keys.CONTROL, 
+        'a', Keys.DELETE))
+
+'User set text deskripsi mata pelajaran : Ilmu Pengetahuan Alam Bagian 2'
+WebUI.setText(findTestObject('admin/Page_Edit Daftar Pelajaran - PIJAR/textarea_Ilmu Pengetahun Alam'), 'Ilmu Pengetahun Alam Bagian 2')
+
+'User click button Simpan'
 WebUI.click(findTestObject('admin/Page_Edit Daftar Pelajaran - PIJAR/button_Simpan'))
+
+'User verifikasi pop-up \'Sukses!\''
+WebUI.verifyElementText(findTestObject('admin/Page_Edit Daftar Pelajaran - PIJAR/h1_Sukses'), 'Sukses!')
+
+'User verifikasi pop-up \'Daftar Pelajaran berhasil disimpan\''
+WebUI.verifyElementText(findTestObject('admin/Page_Edit Daftar Pelajaran - PIJAR/p_Daftar Pelajaran berhasil disimpan'), 
+    'Daftar Pelajaran berhasil disimpan.')
+
+'User click button OK'
+WebUI.click(findTestObject('admin/Page_Edit Daftar Pelajaran - PIJAR/button_OK'))
 

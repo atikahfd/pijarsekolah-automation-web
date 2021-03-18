@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validasi karakter ketika user membuat data guru baru</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73f6c92d-f34e-47c4-a552-a527af20ebed</testCaseGuid>
+</TestCaseEntity>

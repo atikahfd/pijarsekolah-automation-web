@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
+<<<<<<< HEAD:Test Cases/SIM-admin/pengumuman/positive cases/TC004-Pastikan user dapat menghapus data pengumuman.tc
    <description></description>
    <name>TC004-Pastikan user dapat menghapus data pengumuman</name>
+=======
+   <description>User admin dapat menambahkan data guru</description>
+   <name>Pastikan user dapat menambahkan data guru</name>
+>>>>>>> origin/siswa:Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat menambahkan data guru.tc
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e9ff9ca2-30e7-40fc-8c93-08fbb1d09e74</testCaseGuid>

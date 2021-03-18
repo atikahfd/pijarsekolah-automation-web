@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan user dapat menghapus data pengumuman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9ff9ca2-30e7-40fc-8c93-08fbb1d09e74</testCaseGuid>
+</TestCaseEntity>

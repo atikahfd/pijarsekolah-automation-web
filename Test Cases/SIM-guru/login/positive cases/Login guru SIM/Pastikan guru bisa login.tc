@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User guru dapat login pijar sekolah</description>
+   <name>Pastikan guru bisa login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12b2bedb-9928-434d-a24b-5b066ae2eee0</testCaseGuid>
+   <variable>
+      <defaultValue>'jono@gmail.com'</defaultValue>
+      <description></description>
+      <id>08c510a8-0560-4b29-a5c7-dbd3492d157b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'160294'</defaultValue>
+      <description></description>
+      <id>8fedba68-448a-4292-9206-cee748937d46</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

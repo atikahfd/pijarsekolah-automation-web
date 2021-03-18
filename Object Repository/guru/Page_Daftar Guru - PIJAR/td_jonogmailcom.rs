@@ -6,6 +6,10 @@
    <elementGuidId>dc1f2cbf-5612-421b-8496-0e11beed8eef</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'jono@gmail.com' or . = 'jono@gmail.com')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/main/div/span[9]/div/div[2]/div/table/tbody/tr[6]/td[3]</value>
       </entry>
@@ -13,15 +17,11 @@
          <key>CSS</key>
          <value></value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'jono@gmail.com' or . = 'jono@gmail.com')]</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

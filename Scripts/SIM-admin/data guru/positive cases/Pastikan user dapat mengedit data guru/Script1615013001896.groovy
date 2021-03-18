@@ -79,16 +79,10 @@ WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/button_Simpan'))
 'User verifikasi pop-up \'Sukses!\''
 WebUI.verifyElementText(findTestObject('admin/Page_Edit Guru - PIJAR/h3_Sukses'), 'Sukses!')
 
-'User verifikasi pop-up "Profil Guru berhasil diubah"'
-WebUI.verifyElementText(findTestObject('admin/Page_Edit Guru - PIJAR/p_Profil Guru berhasil diubah'), 'Profil Guru berhasil diubah')
-
 'User click button "OK"'
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/button_OK'))
 
 WebUI.delay(1)
-
-'User click button "Kembali"'
-WebUI.click(findTestObject('admin/Page_Detail Guru - PIJAR/button_Kembali'))
 
 WebUI.refresh()
 

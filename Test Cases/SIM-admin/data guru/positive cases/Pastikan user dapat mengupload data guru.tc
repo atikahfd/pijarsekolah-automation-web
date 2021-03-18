@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User admin dapat mengupload data guru dengan file excel</description>
+   <name>Pastikan user dapat mengupload data guru</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6530a8cb-b8fd-4ae8-8bcc-84cd7e3b7c75</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\format-upload-guru.xlsx'</defaultValue>
+      <description></description>
+      <id>c64ef03b-b430-4b23-8136-ea2191f48ffa</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan user dapat menambah data virtual kelas</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a70f886e-3c7c-4f05-a289-76f1c803b8af</testCaseGuid>
+</TestCaseEntity>

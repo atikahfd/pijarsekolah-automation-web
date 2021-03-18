@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>textarea[name=&quot;description&quot;]</value>
+         <value>textarea[name=&quot;deskripsi&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@name='description']</value>
+         <value>//textarea[@name='deskripsi']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,21 +42,28 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>description</value>
+      <value>deskripsi</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Isi Deksripsi (optional)</value>
+      <value>Isi Deskripsi (optional)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>rows</name>
       <type>Main</type>
-      <value>20</value>
+      <value>5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,21 +77,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;my-4&quot;]/div[@class=&quot;mt-6 bg-white rounded-lg shadow-lg overflow-hidden py-4 px-6&quot;]/form[1]/div[@class=&quot;T1qw8To-OEcIu1HfcexZN&quot;]/div[@class=&quot;_3inwpJiyFhEIWL0zO__m_Y&quot;]/textarea[@class=&quot;bordered block w-3/4 italic&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;mx-2 my-4&quot;]/div[@class=&quot;mt-6 bg-white rounded-lg shadow-lg overflow-hidden py-4 px-6&quot;]/form[1]/div[@class=&quot;_1KbB7-7i8QRqa7iFgbdGE0&quot;]/div[@class=&quot;vSivqCofY7birWBiVXhnI&quot;]/textarea[@class=&quot;bordered block w-3/4 italic&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@name='description']</value>
+      <value>//textarea[@name='deskripsi']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div/div/form/div[3]/div[2]/textarea</value>
+      <value>//div[@id='app']/main/div/div/div/div[2]/form/div[3]/div[2]/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,14 +105,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mata Pelajaran'])[1]/following::textarea[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::textarea[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[1]/preceding::textarea[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/preceding::textarea[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -16,20 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+'User click Akademik on side menu\r'
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Akademik'))
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
-        , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.focus(findTestObject('admin/Page_Beranda - PIJAR/span_Akademik'))
-
+'User click Daftar Pelajaran on side menu\r'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Daftar Pelajaran'))
 
+'User set text input search untuk find mata pelajaran : Ilmu Pengetahuan Alam'
 WebUI.setText(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/input_search mata pelajaran'), 'Ilmu pengetahuan alam')
 
+'User click icon "eye"'
 WebUI.click(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/DUD/button_btnDetail'))
 
+'User click button Kembali'
 WebUI.click(findTestObject('admin/Page_Detail Daftar Pelajaran - PIJAR/button_Kembali'))
 

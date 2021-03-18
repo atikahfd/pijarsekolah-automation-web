@@ -6,16 +6,16 @@
    <elementGuidId>229bb151-05e6-43ee-838b-7a4e4e9800d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='button-1']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#button-1</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'button-1' and @type = 'button' and (text() = ' Kembali ' or . = ' Kembali ')]</value>
+         <value>//*[@type = 'button' and (text() = ' Kembali ' or . = ' Kembali ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='button-1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <value>btn no-margin w-32 md:wide text-center</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

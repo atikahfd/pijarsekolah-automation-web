@@ -28,21 +28,6 @@ WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_Tambah Data'))
 'User click Input Data'
 WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/div_Input Data  Memasukan data Guru secara manual'))
 
-'User set text nama guru : \'Jono\'\r'
-WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nama'), 'Jono')
-
-'User click Data Guru on side menu'
-WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Guru'))
-
-'User click Profil Guru on side menu'
-WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Guru'))
-
-'User click button "Tambah Data"'
-WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_Tambah Data'))
-
-'User click Input Data '
-WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/div_Input Data  Memasukan data Guru secara manual'))
-
 'User set text nama guru : \'Jono\''
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nama'), 'Jono')
 

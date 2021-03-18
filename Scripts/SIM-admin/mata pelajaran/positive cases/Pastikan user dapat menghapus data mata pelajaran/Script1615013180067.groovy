@@ -16,18 +16,34 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+'User click Akademik on side menu\r'
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Akademik'))
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
-        , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.focus(findTestObject('admin/Page_Beranda - PIJAR/span_Akademik'))
-
+'User click Daftar Pelajaran on side menu\r'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Daftar Pelajaran'))
 
+'User set text input search untuk find mata pelajaran : Ilmu Pengetahuan Alam'
+WebUI.setText(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/input_search mata pelajaran'), 'Ilmu pengetahuan alam')
+
+'User click icon "trash box"\r\n'
 WebUI.click(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/DUD/button_btnDelete'))
 
+'User verifikasi nama mata pelajaran yang ingin di hapus'
+WebUI.verifyElementText(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/Hapus Mapel/p_namaMapel Hapus'), 'Ilmu Pengetahuan Alam Bagian 2')
+
+'User verifikasi pop-up Anda yakin mau hapus?'
+WebUI.verifyElementText(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/Hapus Mapel/b_Anda yakin mau hapus'), 'Anda yakin mau hapus?')
+
+'User click button Ya, Hapus'
 WebUI.click(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/button_Ya hapus'))
+
+'User verifikasi pop-up \'Sukses!\''
+WebUI.verifyElementText(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/Hapus Mapel/h1_Sukses'), 'Sukses!')
+
+'User verifikasi pop-up \'Daftar Pelajaran berhasil terhapus\''
+WebUI.verifyElementText(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/Hapus Mapel/p_Daftar Pelajaran berhasil terhapus'), 
+    'Daftar Pelajaran berhasil terhapus.')
+
+'User click button OK'
+WebUI.click(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/Hapus Mapel/button_OK'))
 

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='jono@gmail.com'])[1]/following::button[3]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='jona@gmail.com'])[1]/following::button[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,7 +62,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='jono@gmail.com'])[1]/following::button[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jona@gmail.com'])[1]/following::button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

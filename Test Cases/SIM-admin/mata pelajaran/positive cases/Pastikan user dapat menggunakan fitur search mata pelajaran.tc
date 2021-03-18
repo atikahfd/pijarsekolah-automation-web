@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User admin dapat search mata pelajaran</description>
    <name>Pastikan user dapat menggunakan fitur search mata pelajaran</name>
    <tag></tag>
    <comment></comment>

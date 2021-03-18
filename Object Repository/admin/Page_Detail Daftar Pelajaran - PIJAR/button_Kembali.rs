@@ -6,6 +6,10 @@
    <elementGuidId>62854e61-3cde-4858-a6e8-161607697f78</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'button-kembali' and @type = 'button' and (text() = 'Kembali' or . = 'Kembali')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#button-kembali</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//button[@id='button-kembali']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

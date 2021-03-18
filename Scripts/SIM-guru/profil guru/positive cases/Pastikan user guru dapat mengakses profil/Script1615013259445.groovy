@@ -16,22 +16,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-guru/login/positive cases/Pastikan guru bisa login'), [('username') : 'jono@gmail.com'
-        , ('password') : '160294'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-guru/login/positive cases/TC-Pop-up kehadiran'), [:], FailureHandling.STOP_ON_FAILURE)
-
+'User click Data Guru on side menu\r'
 WebUI.click(findTestObject('guru/Page_Beranda - PIJAR/span_Data Guru'))
 
+'User click Profil Guru on side menu\r'
 WebUI.click(findTestObject('guru/Page_Beranda - PIJAR/span_Profil Guru'))
 
 WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_Jono'), 'Jono')
 
+WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_121312131213'), '121312131213')
+
+WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_Jakarta'), 'Jakarta')
+
+WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_Laki-laki'), 'Laki-laki')
+
 WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_jonogmailcom'), 'jono@gmail.com')
+
+WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_1990020109920004'), '1990020109920004')
+
+WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_Jalan perjuangan'), 'Jalan perjuangan')
+
+WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_081213124547'), '081213124547')
+
+WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_Matematika'), 'Matematika')
 
 WebUI.refresh()
 

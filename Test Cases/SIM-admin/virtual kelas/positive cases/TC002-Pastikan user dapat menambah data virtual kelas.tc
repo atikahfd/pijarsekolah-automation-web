@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
+<<<<<<< HEAD:Test Cases/SIM-admin/virtual kelas/positive cases/TC002-Pastikan user dapat menambah data virtual kelas.tc
    <description></description>
    <name>TC002-Pastikan user dapat menambah data virtual kelas</name>
+=======
+   <description>User dapat mengakses list data guru</description>
+   <name>Pastikan user dapat mengakses list data guru</name>
+>>>>>>> origin/siswa:Test Cases/SIM-admin/data guru/positive cases/Pastikan user dapat mengakses list data guru.tc
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a70f886e-3c7c-4f05-a289-76f1c803b8af</testCaseGuid>

@@ -16,24 +16,34 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+'User click Akademik on side menu\r'
+WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Akademik'))
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
-        , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.focus(findTestObject('admin/Page_Beranda - PIJAR/span_Akademik'))
-
+'User click Daftar Pelajaran on side menu\r'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Daftar Pelajaran'))
 
+'User click button Tambah Pelajaran'
 WebUI.click(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/button_Tambah Pelajaran'))
 
-WebUI.setText(findTestObject('admin/Page_Tambah Daftar Pelajaran - PIJAR/input_Kode Pelajaran_kodePelajaran'), 'IPA')
+'User set text input Kode Pelajaran : IPA2'
+WebUI.setText(findTestObject('admin/Page_Tambah Daftar Pelajaran - PIJAR/input_Kode Pelajaran_kodePelajaran'), 'IPA2')
 
+'User set text input mata pelajaran : Ilmu Pengetahuan Alam'
 WebUI.setText(findTestObject('admin/Page_Tambah Daftar Pelajaran - PIJAR/input_Mata Pelajaran_mataPelajaran'), 'Ilmu Pengetahuan Alam')
 
-WebUI.setText(findTestObject('admin/Page_Tambah Daftar Pelajaran - PIJAR/textarea_Deskripsi_deskripsi'), 'Ilmu Pengetahun Alam')
+'User set text deskripsi mata pelajaran : Ilmu Pengetahuan Alam'
+WebUI.setText(findTestObject('admin/Page_Tambah Daftar Pelajaran - PIJAR/textarea_Deskripsi_deskripsi'), 'Ilmu Pengetahuan Alam')
 
+'User click button Simpan'
 WebUI.click(findTestObject('admin/Page_Tambah Daftar Pelajaran - PIJAR/button_Simpan'))
+
+'User verifikasi pop-up \'Sukses!\''
+WebUI.verifyElementText(findTestObject('admin/Page_Tambah Daftar Pelajaran - PIJAR/h1_Sukses'), 'Sukses!')
+
+'User verifikasi pop-up \'Daftar Pelajaran berhasil disimpan\''
+WebUI.verifyElementText(findTestObject('admin/Page_Tambah Daftar Pelajaran - PIJAR/p_Daftar Pelajaran berhasil disimpan'), 
+    'Daftar Pelajaran berhasil disimpan.')
+
+'User click button OK'
+WebUI.click(findTestObject('admin/Page_Tambah Daftar Pelajaran - PIJAR/button_OK'))
 

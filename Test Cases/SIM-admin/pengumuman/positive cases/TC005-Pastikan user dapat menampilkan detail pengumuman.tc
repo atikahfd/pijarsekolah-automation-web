@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC005-Pastikan user dapat menampilkan detail pengumuman</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>dfd8dd55-ef39-4871-a3d9-3559a817da32</testCaseGuid>
-</TestCaseEntity>

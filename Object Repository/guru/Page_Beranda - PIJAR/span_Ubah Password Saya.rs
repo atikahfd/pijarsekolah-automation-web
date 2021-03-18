@@ -6,6 +6,10 @@
    <elementGuidId>e5544554-e93c-44cd-988b-b981387fdf8e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Ubah Password Saya' or . = 'Ubah Password Saya')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/main/span/ul/li[9]/ul/li[2]/a/div/div/span</value>
       </entry>
