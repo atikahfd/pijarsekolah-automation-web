@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan user dapat menambahkan jadwal pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa9cf2dd-d4b3-4bc2-83b0-811dbbad19c5</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'</defaultValue>
+      <description></description>
+      <id>fae6e79e-44b3-45ff-b5c4-7d50055bed24</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

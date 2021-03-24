@@ -6,6 +6,10 @@
    <elementGuidId>38ce0afe-a225-40c8-84a6-30d68dee7c22</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Kembali' or . = 'Kembali')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/main/div/div/div/div[2]/div/a</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>a.btn</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <value>btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

@@ -38,5 +38,3 @@ WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/p_Kelas be
 
 WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/button_OK'))
 
-WebUI.refresh()
-

@@ -28,9 +28,7 @@ WebUI.uploadFile(findTestObject('admin/Page_Data Kelas - PIJAR/Upload file/uploa
 
 WebUI.delay(1)
 
-WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/h3_Sukses'), 'Sukses!')
+WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/Success import data kelas/h3_Success'), 'Success')
 
-WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/button_OK'))
-
-WebUI.refresh()
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Success import data kelas/button_exit'))
 

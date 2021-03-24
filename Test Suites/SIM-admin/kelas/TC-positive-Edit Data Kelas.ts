@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TC-positove-add data kelas</name>
+   <name>TC-positive-Edit Data Kelas</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,41 +10,47 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>a9e6ffd7-dec5-4f7c-96e1-4516dacea804</testSuiteGuid>
+   <testSuiteGuid>6213b6e8-13fa-4dc9-bb45-7887e46b6643</testSuiteGuid>
    <testCaseLink>
-      <guid>3526d578-b28b-4135-b390-e3f7b5cc6297</guid>
+      <guid>cf8ebe01-14c5-44b2-b359-4fd8729e06f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Open Browser</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>016ab1d5-3f47-4740-828f-69d31c39289e</guid>
+      <guid>2cee255c-fb43-420e-93d1-9ff80e70a207</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>40cbdf09-f052-4d37-9b59-2b79969e2911</guid>
+      <guid>b0555eae-ec49-45e3-88e2-de8e46ee03e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat menambahkan data kelas</testCaseId>
+      <testCaseId>Test Cases/SIM-admin/login/positive cases/Pastikan admin bisa login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b2ec5de0-110a-4d8e-8125-4bdcee07185f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>98958674-7371-4675-a36b-07727b065d71</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>eff4d494-8e40-4a60-9025-ec57398b7d15</guid>
+      <guid>d1c92564-99e4-4a83-9147-ea5f1ca5fd55</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat menampahkan data dengan import data</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>25dfa0ec-8127-47b7-ad58-9c33560da1c7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>738fd22e-8a93-4a60-8303-5de8a9447236</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/SIM-guru/login/positive cases/TC-Pop-up kehadiran</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8948da92-d38b-4afb-ae26-f1c2f1a073ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat edit data kelas</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

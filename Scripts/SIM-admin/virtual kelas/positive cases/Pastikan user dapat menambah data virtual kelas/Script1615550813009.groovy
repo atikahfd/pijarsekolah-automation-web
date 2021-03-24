@@ -21,9 +21,6 @@ WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandl
 
 WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/TC001-Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
-        , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Kelas Virtual'))
 
 WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/Halaman Kelas Virtual'))

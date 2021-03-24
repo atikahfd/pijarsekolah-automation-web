@@ -24,10 +24,10 @@
       <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f5fb27a6-3387-4851-b29c-20a61a995ab9</guid>
+      <guid>f3ca2650-9612-4bcf-97e1-ce866e9c8e7c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/login/positive cases/TC001-Pastikan admin bisa login</testCaseId>
+      <testCaseId>Test Cases/SIM-admin/login/positive cases/Pastikan admin bisa login</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -40,5 +40,23 @@
          <value></value>
          <variableId>98958674-7371-4675-a36b-07727b065d71</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c5376262-8bee-4e5b-899c-87d2a2cd340b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM-guru/login/positive cases/TC-Pop-up kehadiran</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0f27b516-65fe-415a-bf0b-47b2e7cf836a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat mengakses list data kelas</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>72f3d9bb-26e5-44e3-9ed5-f8a08b8d5cb2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat menggunakan fitur search kelas</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

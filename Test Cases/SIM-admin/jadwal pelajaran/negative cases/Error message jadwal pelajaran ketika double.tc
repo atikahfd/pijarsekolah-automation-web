@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Error message jadwal pelajaran ketika double</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f7c1330-4aa0-46f0-a4bd-da0dbeb8b6a1</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'</defaultValue>
+      <description></description>
+      <id>74ea839f-546b-4bc7-b123-33b482a9a81d</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

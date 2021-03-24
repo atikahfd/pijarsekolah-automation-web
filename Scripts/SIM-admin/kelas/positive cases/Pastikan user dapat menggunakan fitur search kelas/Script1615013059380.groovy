@@ -16,13 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
-
-WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
-
 WebUI.setText(findTestObject('admin/Page_Data Kelas - PIJAR/input_Tambah Data_search'), 'XI-A')
 
 WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/DUD/button_btnDetailKelas'))
 
-WebUI.refresh()
+WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/Page_Detail Kelas - Pijar Sekolah/td_XI-A'), 'XI-A')
+
+WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/Page_Detail Kelas - Pijar Sekolah/td_Rahmat'), 'Rahmat')
+
+WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Detail Kelas/a_Kembali'))
 

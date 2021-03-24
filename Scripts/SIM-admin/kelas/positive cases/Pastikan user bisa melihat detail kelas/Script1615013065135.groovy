@@ -22,5 +22,3 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
 
 WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/DUD/button_btnDetailKelas'))
 
-WebUI.refresh()
-

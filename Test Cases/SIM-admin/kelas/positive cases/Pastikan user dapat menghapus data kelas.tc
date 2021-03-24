@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>User menghapus data kelas</description>
-   <name>Pastikan user bisa menghapus data kelas</name>
+   <name>Pastikan user dapat menghapus data kelas</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9a20814a-e1c4-4729-84b5-ce2af9a8de1f</testCaseGuid>

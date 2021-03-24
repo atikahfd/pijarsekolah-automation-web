@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan user dapat menambahkan syllabus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d87a0ebb-03e2-4240-86e9-24bd644d2b2b</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'</defaultValue>
+      <description></description>
+      <id>4bcb5b56-d42c-4d26-9a60-3f97ff009d96</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>
