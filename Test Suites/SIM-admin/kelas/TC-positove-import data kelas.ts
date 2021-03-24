@@ -48,7 +48,7 @@
       <testCaseId>Test Cases/SIM-guru/login/positive cases/TC-Pop-up kehadiran</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a855efb9-75a3-4f8a-afb9-6fd7e1b78a86</guid>
+      <guid>313a4391-07b5-4fd8-bb2e-59782af84a71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/kelas/positive cases/Pastikan user dapat menampahkan data dengan import data</testCaseId>

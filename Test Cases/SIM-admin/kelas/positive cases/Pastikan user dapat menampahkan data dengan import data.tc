@@ -13,7 +13,7 @@
       <name>file</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Upload Data/Upload-Data-Kelas')</defaultValue>
       <description></description>
       <id>738fd22e-8a93-4a60-8303-5de8a9447236</id>
       <masked>false</masked>
