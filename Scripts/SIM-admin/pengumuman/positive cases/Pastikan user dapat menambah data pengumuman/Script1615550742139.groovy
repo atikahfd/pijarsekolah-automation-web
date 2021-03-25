@@ -17,16 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/TC001-Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
-        , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Pengumuman'))
-
-WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/Halman Pengumuman'))
 
 WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/button_Tambah Pengumuman'))
 
@@ -34,21 +25,17 @@ WebUI.click(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/Select_Pilih_Ke
 
 WebUI.click(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/div_Semua'))
 
-WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input__judul'), 'Mencoba Data Pengumuman')
+WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input__judul'), 'Auto Test Data Pengumuman')
 
-WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input__tanggal'), '15/03/2021')
+WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input__tanggal'), '30/03/2021')
 
-WebUI.delay(1)
+WebUI.click(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/div_30'))
 
-WebUI.click(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input_detail_kegiatan'))
-
-WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input_detail_kegiatan'), 'Mencoba test pengumuman menambah data')
+WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input_detail_kegiatan'), 'Auto Test Data Pengumuman')
 
 WebUI.focus(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/upload file'))
 
 WebUI.uploadFile(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/upload file pengumuman'), file)
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/button_Simpan_pengumuman'))
 

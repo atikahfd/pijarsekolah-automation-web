@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_OK</name>
+   <name>button_Ok</name>
    <tag></tag>
-   <elementGuidId>729a06e3-9eaf-4a2e-adcb-9fbeb28450ae</elementGuidId>
+   <elementGuidId>8a10a8c8-c6df-464a-9749-e57704ee25a0</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.swal2-confirm._20MY8X0j9D39r3x3P63Z1d.swal2-styled</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Ok' or . = 'Ok')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.swal2-confirm._20MY8X0j9D39r3x3P63Z1d.swal2-styled</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -85,5 +89,26 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ok']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

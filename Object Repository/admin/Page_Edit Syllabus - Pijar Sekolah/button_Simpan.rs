@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/main/div/div/div[2]/form/div[6]/button</value>
+         <value>//button[@type='submit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn</value>
+      <value>_23ce8Q_NQhcfAp_45xWs5b _3E630WT5DdrAJEWyNofMwg _3UjjiMinqs8owcnUhALDn7 md:wide text-center relative k_fwFrf1N6PMi1aH3fbU9</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,14 +49,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;LPpYLI-PAY0kHmHxRU2jN&quot;]/form[1]/div[@class=&quot;N2TRk6U-qrjOf3LJKBUoF&quot;]/button[@class=&quot;btn&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[@class=&quot;h-full flex flex-col&quot;]/div[@class=&quot;LPpYLI-PAY0kHmHxRU2jN h-full mb-8 p-6 md:p-10&quot;]/form[1]/div[@class=&quot;N2TRk6U-qrjOf3LJKBUoF justify-center md:justify-start&quot;]/div[@class=&quot;md:ml-10 flex&quot;]/button[@class=&quot;_23ce8Q_NQhcfAp_45xWs5b _3E630WT5DdrAJEWyNofMwg _3UjjiMinqs8owcnUhALDn7 md:wide text-center relative k_fwFrf1N6PMi1aH3fbU9&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div[2]/form/div[6]/button</value>
+      <value>//div[@id='app']/main/div/div/div[2]/form/div[6]/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,6 +105,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/button</value>
+      <value>//div[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User menggunkan filter by kelas</description>
+   <name>Pastikan user dapat menggunakan filter by kelas</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd9b2a1a-c67c-419f-8076-fdbd074bf47b</testCaseGuid>
+</TestCaseEntity>

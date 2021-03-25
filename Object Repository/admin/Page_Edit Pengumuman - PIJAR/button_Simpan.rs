@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Simpan</name>
    <tag></tag>
-   <elementGuidId>7b895c5c-cc54-41b5-92f9-5732e7dbe670</elementGuidId>
+   <elementGuidId>4c71bc59-5016-427b-8f19-eca2d1ce51e8</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#button-submit</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='button-submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#button-submit</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div[2]/form/div[6]/div[2]/div[2]/button</value>
+      <value>//div[@id='app']/main/div/div/div[2]/div/form/div[6]/div[2]/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

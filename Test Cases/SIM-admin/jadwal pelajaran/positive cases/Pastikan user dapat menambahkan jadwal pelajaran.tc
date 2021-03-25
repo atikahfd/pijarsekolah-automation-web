@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User admin menambahkan jadwal pelajaran</description>
    <name>Pastikan user dapat menambahkan jadwal pelajaran</name>
    <tag></tag>
    <comment></comment>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User admin dapat mengedit jadwal pelajaran</description>
+   <name>Pastikan user dapat edit jadwal pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed8c911e-94c8-4235-bc83-bbc2c4702cb7</testCaseGuid>
+</TestCaseEntity>

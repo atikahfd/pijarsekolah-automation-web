@@ -3,15 +3,19 @@
    <description></description>
    <name>h3_Sukses</name>
    <tag></tag>
-   <elementGuidId>c2bbedd7-3158-46c4-9083-b61c1dae8aea</elementGuidId>
+   <elementGuidId>b6b8221d-9f20-4d8a-a5b9-f664afef0bbe</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>h3.font-semibold.text-4xl</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='swal2-content']/div/h3</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Sukses!' or . = 'Sukses!')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.font-semibold.text-4xl</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -92,5 +96,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h3</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok'])[1]/preceding::h3[1]</value>
    </webElementXpaths>
 </WebElementEntity>

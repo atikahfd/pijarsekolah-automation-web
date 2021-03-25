@@ -3,19 +3,19 @@
    <description></description>
    <name>upload file pengumuman</name>
    <tag></tag>
-   <elementGuidId>7aacbc64-573d-467e-ba24-7f557ee50f1d</elementGuidId>
+   <elementGuidId>a75b83b1-8ada-40a1-9e89-f57746c41923</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'unggah' and @type = 'file']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.w-full.h-24.inline-flex.justify-center.items-center.border-2.border-gray-200.shadow-md</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/main/div/div/div[2]/div/form/div[5]/div[2]/div/div/div/label/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/main/div/div/div[2]/form/div[5]/div[2]/div/div/div/label/div</value>
+         <key>CSS</key>
+         <value>div.w-full.h-24.inline-flex.justify-center.items-center.border-2.border-gray-200.shadow-md</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,32 +28,11 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>w-full h-24 inline-flex justify-center items-center border-2 border-gray-200 shadow-md</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_2K1qjyO_eWI_U21ZbwVQEs&quot;]/form[1]/div[@class=&quot;_2Nj0u47iYIotVBk67qqeS4&quot;]/div[@class=&quot;_1rp9G1QXfn-uzVr_8GImYA&quot;]/div[@class=&quot;flex&quot;]/div[1]/div[@class=&quot;w-40 h-24&quot;]/label[1]/div[@class=&quot;w-full h-24 inline-flex justify-center items-center border-2 border-gray-200 shadow-md&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>unggah</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>file</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,12 +41,19 @@
       <type>Main</type>
       <value> .mp3 .mp4 .png .jpg</value>
    </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div[2]/form/div[5]/div[2]/div/div/div/label/div</value>
+      <value>//div[@id='app']/main/div/div/div[2]/div/form/div[5]/div[2]/div/div/div/label/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

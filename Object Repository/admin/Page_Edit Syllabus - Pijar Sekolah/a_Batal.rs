@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/main/div/div/div[2]/form/div[6]/a</value>
+         <value>//div[@id='app']/main/div/div/div[2]/form/div[6]/div[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -49,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;LPpYLI-PAY0kHmHxRU2jN&quot;]/form[1]/div[@class=&quot;N2TRk6U-qrjOf3LJKBUoF&quot;]/a[@class=&quot;btn outline&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[@class=&quot;h-full flex flex-col&quot;]/div[@class=&quot;LPpYLI-PAY0kHmHxRU2jN h-full mb-8 p-6 md:p-10&quot;]/form[1]/div[@class=&quot;N2TRk6U-qrjOf3LJKBUoF justify-center md:justify-start&quot;]/div[@class=&quot;md:ml-10 flex&quot;]/a[@class=&quot;btn outline&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div[2]/form/div[6]/a</value>
+      <value>//div[@id='app']/main/div/div/div[2]/form/div[6]/div[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/a</value>
+      <value>//div[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

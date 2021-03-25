@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/main/div/div/div[2]/form/div[4]/div[2]/div/div/div</value>
+         <value>//div[@id='app']/main/div/div/div[2]/form/div[4]/div/div[2]/div/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_2HIFmAJcre0kuF9wyl9bO5&quot;]/form[1]/div[@class=&quot;ilTa_eMz24ZEtPa_u7bU1&quot;]/div[@class=&quot;_1yQ_7mTXH6tmgXBExyiVX5&quot;]/div[@class=&quot;bordered block w-3/4 italic css-2b097c-container&quot;]/div[@class=&quot;select___control css-yk16xz-control&quot;]/div[@class=&quot;select___value-container css-1hwfws3&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[@class=&quot;h-full flex flex-col&quot;]/div[@class=&quot;_2HIFmAJcre0kuF9wyl9bO5 h-full mb-8 p-6 md:p-10&quot;]/form[1]/div[@class=&quot;md:ml-10&quot;]/div[@class=&quot;_3r20TfIXhsIVPJfbQ7YfUP&quot;]/div[@class=&quot;_1JNHzaWZhhT3C-EzMPHny9&quot;]/div[@class=&quot;bordered block italic w-full css-2b097c-container&quot;]/div[@class=&quot;select___control css-yk16xz-control&quot;]/div[@class=&quot;select___value-container css-1hwfws3&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div[2]/form/div[4]/div[2]/div/div/div</value>
+      <value>//div[@id='app']/main/div/div/div[2]/form/div[4]/div/div[2]/div/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +63,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/div/div/div</value>
+      <value>//div[4]/div/div[2]/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

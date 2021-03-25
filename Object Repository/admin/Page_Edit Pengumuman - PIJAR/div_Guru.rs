@@ -3,15 +3,15 @@
    <description></description>
    <name>div_Guru</name>
    <tag></tag>
-   <elementGuidId>09cb4b77-a5d2-49f3-ba25-3cf482f27011</elementGuidId>
+   <elementGuidId>18b1abbf-8264-48d3-8276-392ae3c546bd</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#react-select-3-option-1</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='react-select-3-option-1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-3-option-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div[2]/form/div/div[2]/div/div[2]/div/div[2]</value>
+      <value>//div[@id='app']/main/div/div/div[2]/div/form/div/div[2]/div/div[2]/div/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

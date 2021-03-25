@@ -3,15 +3,15 @@
    <description></description>
    <name>input__tanggal</name>
    <tag></tag>
-   <elementGuidId>5c5acf59-3242-4733-9696-f8297e815a3b</elementGuidId>
+   <elementGuidId>846ac3ef-70fa-48b7-8a22-5894f2f92e1a</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#dp-tanggal</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='dp-tanggal']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#dp-tanggal</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -61,13 +61,6 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>15/03/2021</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dp-tanggal&quot;)</value>
@@ -84,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div[2]/form/div[3]/div[2]/div/div/div/div/input</value>
+      <value>//div[@id='app']/main/div/div/div[2]/div/form/div[3]/div[2]/div/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

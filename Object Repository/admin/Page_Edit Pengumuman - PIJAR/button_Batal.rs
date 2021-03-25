@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Batal</name>
    <tag></tag>
-   <elementGuidId>cdf9cc35-74d4-4a99-b72f-928a22264eeb</elementGuidId>
+   <elementGuidId>c375964f-5515-498f-9c1e-daceaa4ace5a</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#button-kembali</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='button-kembali']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#button-kembali</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div[2]/form/div[6]/div[2]/div/button</value>
+      <value>//div[@id='app']/main/div/div/div[2]/div/form/div[6]/div[2]/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

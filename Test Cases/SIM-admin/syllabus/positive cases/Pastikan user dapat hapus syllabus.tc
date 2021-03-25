@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User admin dapat menghapus data syllabus</description>
+   <name>Pastikan user dapat hapus syllabus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1066c862-f528-4608-aff5-a9913ebeba53</testCaseGuid>
+</TestCaseEntity>

@@ -42,12 +42,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c5376262-8bee-4e5b-899c-87d2a2cd340b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-guru/login/positive cases/TC-Pop-up kehadiran</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>0f27b516-65fe-415a-bf0b-47b2e7cf836a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

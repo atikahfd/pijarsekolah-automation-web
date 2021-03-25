@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>System replace jadwal pelajaran jika User admin menambahkan jadwal pelajaran yang sama</description>
+   <name>Pastikan user dapat reflace untuk menambahkan data jadwal pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8d245e6-c478-47ac-9f22-fdd1f7af6944</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'</defaultValue>
+      <description></description>
+      <id>738a14b0-65e9-4dac-a96c-29245e0f4f06</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

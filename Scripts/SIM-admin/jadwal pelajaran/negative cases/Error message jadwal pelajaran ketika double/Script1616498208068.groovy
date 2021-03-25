@@ -16,24 +16,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('SIM-admin/jadwal pelajaran/positive cases/Pastikan user dapat menambahkan jadwal pelajaran'), 
-    [('file') : 'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('admin/Page_Jadwal Pelajaran - Pijar Sekolah/a_Tambah Data'))
-
-WebUI.click(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/div_Pilih Kelas'))
-
-WebUI.click(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/div_V-A'))
-
-WebUI.click(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/div_Pilih Nama Wali Kelas'))
-
-WebUI.click(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/div_Rahmat'))
-
-WebUI.click(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/div_Pilih Semester'))
-
-WebUI.click(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/div_Genap'))
-
-WebUI.uploadFile(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/input-file'), file)
-
-WebUI.click(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/button_Simpan'))
-

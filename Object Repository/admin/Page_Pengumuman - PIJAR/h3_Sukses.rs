@@ -6,15 +6,19 @@
    <elementGuidId>28aff79b-3919-48ab-b080-78e3d47c1068</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h3.font-semibold.text-4xl</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='swal2-content']/div/h3</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Sukses!' or . = 'Sukses!')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.font-semibold.text-4xl</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

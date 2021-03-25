@@ -17,26 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/TC001-Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
-        , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Pengumuman'))
 
-WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/Halman Pengumuman'))
+WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/button_Pengumuman_btnHApus'))
 
-WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/Button - PIJAR/button_hapus'))
-
-WebUI.verifyElementText(findTestObject('admin/Page_Pengumuman - PIJAR/p_Anda yakin mau hapus'), 'Anda yakin mau hapus?')
-
-WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/button_Hapus_p'))
+WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/button_Hapus'))
 
 WebUI.verifyElementText(findTestObject('admin/Page_Pengumuman - PIJAR/h3_Sukses'), 'Sukses!')
 
 WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/button_Ok'))
-
-WebUI.refresh()
 

@@ -22,21 +22,17 @@ WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandl
 WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
-        , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
+        , ('password') : '123456'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('SIM-admin/email activation/Email activation user admin'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Pengumuman'))
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/Halman Pengumuman'))
-
-WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/Button - PIJAR/tombol detail'))
-
-WebUI.click(findTestObject('admin/Page_Detail Pengumuman - PIJAR/Form Detail Pengumuman'))
-
-WebUI.click(findTestObject('admin/Page_Detail Pengumuman - PIJAR/tombol lihat'))
+WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/button_Pengumuman_btnDetailTugas'))
 
 WebUI.delay(1)
+
+WebUI.click(findTestObject('admin/Page_Detail Pengumuman - PIJAR/img-eyeDetail'))
 
 WebUI.click(findTestObject('admin/Page_Detail Pengumuman - PIJAR/button_Kembali_detail'))
 

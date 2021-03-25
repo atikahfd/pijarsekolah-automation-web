@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User admin mengakses detail pengumuman</description>
    <name>Pastikan user dapat menampilkan detail pengumuman</name>
    <tag></tag>
    <comment></comment>

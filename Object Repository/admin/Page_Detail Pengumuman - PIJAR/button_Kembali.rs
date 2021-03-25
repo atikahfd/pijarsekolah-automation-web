@@ -6,18 +6,22 @@
    <elementGuidId>f49db9e4-3e55-4aae-850f-eae09bfc7f32</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#button-1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='button-1']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Kembali' or . = 'Kembali')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#button-1</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,14 +35,14 @@
       <value>btn no-margin w-32 md:wide text-center outline</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>button-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>

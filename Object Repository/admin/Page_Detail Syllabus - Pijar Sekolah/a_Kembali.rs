@@ -13,6 +13,10 @@
          <key>CSS</key>
          <value>a.btn.w-full.text-center.outline</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/syllabus-rpp' and (text() = 'Kembali' or . = 'Kembali')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -49,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;px-10 py-6 bg-white rounded-lg overflow-hidden shadow-lg mx-2&quot;]/div[@class=&quot;flex justify-center mt-16&quot;]/div[@class=&quot;w-32 flex&quot;]/a[@class=&quot;btn w-full text-center outline&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[@class=&quot;h-full flex flex-col&quot;]/div[@class=&quot;bg-white rounded-lg overflow-hidden shadow-lg mx-2 h-full mb-8 p-6 md:p-10&quot;]/div[@class=&quot;flex justify-center mt-16&quot;]/div[@class=&quot;w-32 flex&quot;]/a[@class=&quot;btn w-full text-center outline&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
