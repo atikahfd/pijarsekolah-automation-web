@@ -12,15 +12,12 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 'Username belum di input'
 WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_username'), 'salh@gmail.com')
 
 'Password belum di input'
-WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_password'), '123456')
+WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_password'), '4234234')
 
 'User click button "Masuk"'
 WebUI.click(findTestObject('admin/Page_Login/button_Masuk'))

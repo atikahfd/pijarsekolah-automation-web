@@ -30,6 +30,12 @@
       <testCaseId>Test Cases/SIM-admin/login/negative cases/Pastikan user tidak bisa login jika username salah</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>0b04b8eb-6ecd-4726-852b-9302cfd039a8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>0664048e-d584-4135-a5ba-64767f8b49c3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
