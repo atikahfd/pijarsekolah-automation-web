@@ -6,16 +6,16 @@
    <elementGuidId>35e966b7-464c-4d4e-b8d4-a4f18a2e6246</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.react-datepicker__day.react-datepicker__day--016.react-datepicker__day--selected</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = '16' or . = '16')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/main/div/div/div[2]/form/div/div[4]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[3]/div[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.react-datepicker__day.react-datepicker__day--016.react-datepicker__day--selected</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
