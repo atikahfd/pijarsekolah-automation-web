@@ -24,10 +24,8 @@ WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_password'), 'pas
 'User click button "Masuk"'
 WebUI.click(findTestObject('admin/Page_Login/button_Masuk'))
 
-'User verify text gagal login : \'username / password yang anda masukkan salah\''
-WebUI.verifyElementText(findTestObject('admin/Page_Core Tribe Edu/label_username atau password salah'), 'username atau password salah.')
-
 WebUI.delay(2)
 
-WebUI.refresh()
+'User verify text gagal login : \'username / password yang anda masukkan salah\''
+WebUI.verifyElementText(findTestObject('admin/Page_Core Tribe Edu/label_username atau password salah'), 'username atau password salah.')
 
