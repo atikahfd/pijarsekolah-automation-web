@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TC-negative-login siswa</name>
+   <name>TC-negative-siswa-login gagal</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -24,21 +24,9 @@
       <testCaseId>Test Cases/CustomKeyword/Navigate to URL Siswa</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>77ab3191-64ee-4751-9cae-8b311094f139</guid>
+      <guid>363aade5-e826-4905-ad45-05f2699dfbb5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/siswa/login/positive cases/Login Siswa</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7ee79922-3afd-4482-af6c-c6da0c18dfab</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4d57b71f-36f3-4e44-a132-92d4b9be27f0</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/siswa/login/negative cases/Pastikan user tidak bisa login jika username atau password salah</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

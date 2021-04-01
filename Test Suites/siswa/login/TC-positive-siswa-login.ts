@@ -12,7 +12,19 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>48fde99d-7cb7-4a3d-b913-3036d4e8c165</testSuiteGuid>
    <testCaseLink>
-      <guid>f3c30389-bae5-4ca0-b2a4-2d8279d9633a</guid>
+      <guid>d7cfdd38-91a2-419a-9898-2046daaae674</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CustomKeyword/Open Browser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>38859603-5b70-44cb-bae0-e47a3f884c58</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CustomKeyword/Navigate to URL Siswa</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3213572-0352-4880-84fd-9498f0050f70</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/siswa/login/positive cases/Login Siswa</testCaseId>
