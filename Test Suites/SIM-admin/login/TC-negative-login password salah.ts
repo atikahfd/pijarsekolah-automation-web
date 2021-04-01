@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS-negative-login</name>
+   <name>TC-negative-login password salah</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,33 +10,21 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>e98650b4-a6e4-4287-888e-127bc1c66e3e</testSuiteGuid>
+   <testSuiteGuid>229628a8-459d-42e2-9030-d03f53ac4712</testSuiteGuid>
    <testCaseLink>
-      <guid>04d8f7e0-7b3e-4e97-a573-a9c2f99c562e</guid>
+      <guid>28c9d96e-277b-444b-9f04-8d66730fb307</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Open Browser</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>afe1e7a5-6c84-4510-a853-2a4906c70733</guid>
+      <guid>d3779d06-ff18-48f0-95de-bab95385b3f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ffd3075b-d00a-4fcc-89a7-7839193dcc24</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/login/negative cases/Pastikan user tidak bisa login jika username salah</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0b04b8eb-6ecd-4726-852b-9302cfd039a8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0664048e-d584-4135-a5ba-64767f8b49c3</guid>
+      <guid>826457f0-f801-462a-9c09-ca717a2f92b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/login/negative cases/Pastikan user tidak bisa login jika password salah</testCaseId>
