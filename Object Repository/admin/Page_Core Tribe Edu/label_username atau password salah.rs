@@ -6,15 +6,15 @@
    <elementGuidId>f082d307-73ea-46ab-9aca-bcc3426ca4df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>label._1Y22yQzGHuzAWQe58IN30m</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/div/div/div/div/div/form/div/div/label</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label._1Y22yQzGHuzAWQe58IN30m</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS-negative-login username salah</name>
+   <name>TS-negative-login gagal</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -27,6 +27,6 @@
       <guid>ffd3075b-d00a-4fcc-89a7-7839193dcc24</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/login/negative cases/Pastikan user tidak bisa login jika username salah</testCaseId>
+      <testCaseId>Test Cases/SIM-admin/login/negative cases/Pastikan user tidak bisa login jika username atau password salah</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
