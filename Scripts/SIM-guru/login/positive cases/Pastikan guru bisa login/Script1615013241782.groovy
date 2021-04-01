@@ -16,13 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_username'), username)
+'User set text input username'
+WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_username'), GlobalVariable.usernameGuru)
 
-WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_password'), password)
+'User set input password'
+WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_password'), GlobalVariable.passwordGuru)
 
+'User click button Masuk'
 WebUI.click(findTestObject('admin/Page_Login/button_Masuk'))
 
-WebUI.delay(0)
-
-WebUI.click(findTestObject('guru/Page_Beranda - PIJAR/button_Nanti'))
+WebUI.delay(2)
 
