@@ -22,3 +22,7 @@ WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_password'), pass
 
 WebUI.click(findTestObject('admin/Page_Login/button_Masuk'))
 
+WebUI.delay(0)
+
+WebUI.click(findTestObject('guru/Page_Beranda - PIJAR/button_Nanti'))
+
