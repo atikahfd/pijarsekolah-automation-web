@@ -10,12 +10,12 @@
          <value>//div[@id='app']/main/span/ul/li[4]/a/div/div[2]/span</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Kelas Virtual' or . = 'Kelas Virtual')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
