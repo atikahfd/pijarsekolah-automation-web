@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User admin mengakses list mata pelajaran</description>
+   <name>Pastikan user dapat mengakses list mata pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1f489e1-4658-41e3-b320-bc2284b1cd0b</testCaseGuid>
+</TestCaseEntity>

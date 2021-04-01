@@ -27,7 +27,7 @@
       <guid>e72476c4-f202-49c6-9be0-cb12e9902614</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-guru/login/positive cases/Login guru SIM/Pastikan guru bisa login</testCaseId>
+      <testCaseId>Test Cases/SIM-guru/login/positive cases/Login New Guru SIM/Pastikan guru bisa login</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

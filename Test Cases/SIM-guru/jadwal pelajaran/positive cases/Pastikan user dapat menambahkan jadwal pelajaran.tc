@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User guru menambahkan jadwal pelajaran</description>
+   <name>Pastikan user dapat menambahkan jadwal pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e9711d0-3044-4e7c-803a-2412d180a0dd</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'</defaultValue>
+      <description></description>
+      <id>e59b644f-2251-4c2b-a26b-8508a4be2cfe</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QAlebih5MB.pdf'</defaultValue>
+      <description></description>
+      <id>13c65fe7-ba31-4d23-84cb-fb970fa16f9c</id>
+      <masked>false</masked>
+      <name>fileLebih5Mb</name>
+   </variable>
+</TestCaseEntity>

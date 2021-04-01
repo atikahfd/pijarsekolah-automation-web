@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User guru dapat menambahkan syllabus</description>
+   <name>Pastikan user dapat menambahkan syllabus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>185311f3-6981-41b9-a7a8-9613a479149e</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'</defaultValue>
+      <description></description>
+      <id>50dd8d21-700d-499b-bbb9-9dc81482f735</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QAlebih5MB.pdf'</defaultValue>
+      <description></description>
+      <id>0ba043d5-1cf3-4119-8e09-0b1794002633</id>
+      <masked>false</masked>
+      <name>fileLebih5Mb</name>
+   </variable>
+</TestCaseEntity>

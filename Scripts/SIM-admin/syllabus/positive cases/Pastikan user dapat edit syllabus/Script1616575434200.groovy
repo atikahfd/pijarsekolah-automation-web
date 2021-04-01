@@ -20,6 +20,8 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Akademik'))
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_SyllabusRPP'))
 
+WebUI.setText(findTestObject('admin/Page_Syllabus - Pijar Sekolah/input_Semua Kelas_search'), 'Rahmat')
+
 WebUI.click(findTestObject('admin/Page_Syllabus - Pijar Sekolah/button_Genap_btnDetailKelas'))
 
 WebUI.click(findTestObject('admin/Page_Detail Syllabus - Pijar Sekolah/a_Edit'))
@@ -37,6 +39,19 @@ WebUI.click(findTestObject('admin/Page_Edit Syllabus - Pijar Sekolah/div_V-B'))
 WebUI.click(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/div_Genap'))
 
 WebUI.click(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/div_Ganjil'))
+
+WebUI.click(findTestObject('admin/Page_Edit Syllabus - Pijar Sekolah/img___hapus file'))
+
+WebUI.uploadFile(findTestObject('admin/Page_Edit Syllabus - Pijar Sekolah/input file'), fileLebih5Mb)
+
+WebUI.click(findTestObject('admin/Page_Edit Syllabus - Pijar Sekolah/button_Simpan'))
+
+WebUI.verifyElementText(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/span_Lampiran tidak boleh melebihi 5MB'), 
+    'Lampiran tidak boleh melebihi 5MB')
+
+WebUI.click(findTestObject('admin/Page_Edit Syllabus - Pijar Sekolah/img___hapus file'))
+
+WebUI.uploadFile(findTestObject('admin/Page_Edit Syllabus - Pijar Sekolah/input file'), file)
 
 WebUI.click(findTestObject('admin/Page_Edit Syllabus - Pijar Sekolah/button_Simpan'))
 

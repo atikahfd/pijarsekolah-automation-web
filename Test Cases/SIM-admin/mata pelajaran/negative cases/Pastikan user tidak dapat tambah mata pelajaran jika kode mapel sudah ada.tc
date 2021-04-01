@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>System menampilkan message Kode Sudah Digunakan</description>
+   <name>Pastikan user tidak dapat tambah mata pelajaran jika kode mapel sudah ada</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16577d1a-0401-44fd-aa47-8da16c3cb325</testCaseGuid>
+</TestCaseEntity>

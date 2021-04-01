@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User search jadwal pelajaran</description>
+   <name>Pastikan user dapat menggunakan fitur search jadwal pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2f0ae3f-7aeb-4454-b545-2f2c77a8f9a3</testCaseGuid>
+</TestCaseEntity>

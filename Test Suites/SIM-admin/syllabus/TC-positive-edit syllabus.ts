@@ -46,5 +46,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/syllabus/positive cases/Pastikan user dapat edit syllabus</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4bcb5b56-d42c-4d26-9a60-3f97ff009d96</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>789146ac-379c-4d56-9ed2-17b6618f0903</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

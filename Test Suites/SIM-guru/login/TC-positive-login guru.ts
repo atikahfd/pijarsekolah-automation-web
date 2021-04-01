@@ -24,21 +24,27 @@
       <testCaseId>Test Cases/CustomKeyword/Navigate to URL SIM</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>dfa8dbf9-f884-468e-bd21-2a5a505fed30</guid>
+      <guid>4ef9d692-2c7d-4404-81d6-cd432ba0bff0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-guru/login/positive cases/Login guru SIM/Pastikan guru bisa login</testCaseId>
+      <testCaseId>Test Cases/SIM-guru/login/positive cases/Pastikan guru bisa login</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>08c510a8-0560-4b29-a5c7-dbd3492d157b</variableId>
+         <variableId>5de03301-9820-40bc-a199-df39f387141a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8fedba68-448a-4292-9206-cee748937d46</variableId>
+         <variableId>ef6a07ed-068b-4b8c-af80-8ddab84ac610</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>16f58773-a309-4363-adfd-88d511ed982a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIM-guru/login/positive cases/Pop-up kehadiran</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

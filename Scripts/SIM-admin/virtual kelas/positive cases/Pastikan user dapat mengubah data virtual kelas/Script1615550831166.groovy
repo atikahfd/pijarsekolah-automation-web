@@ -17,26 +17,61 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/TC001-Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
-        , ('password') : 'password'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Kelas Virtual'))
-
-WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/Halaman Kelas Virtual'))
 
 WebUI.delay(1)
 
-WebUI.focus(findTestObject('admin/Page_Class Virtual - PIJAR/Tombol/button_titik_tiga'))
+WebUI.setText(findTestObject('admin/Page_Class Virtual - PIJAR/input_Tambah Jadwal_search'), 'Test Virtual Kelas 100 Sementara Add')
 
-WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/Tombol/button_Edit'))
+WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/button_menuTitik3'))
 
-WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/Halaman Form Edit Kelas Virtual'))
+WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/button_Edit'))
 
-WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/Pilih_kelas'))
+WebUI.sendKeys(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__agenda'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/div_I-B'))
+WebUI.setText(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__agenda'), 'Test Virtual Kelas 100 Sementara Edit')
+
+WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/div_V-A_css-xb97g8 select___multi-value__remove'))
+
+WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/div_Pilih Kelas (Bisa lebih dari 1 kelas)'))
+
+WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/div_V-B'))
+
+WebUI.sendKeys(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__date'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
+
+WebUI.setText(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__date'), '06/04/2021')
+
+WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/div_6'))
+
+WebUI.sendKeys(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__timeStart'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
+
+WebUI.setText(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__timeStart'), '13:00')
+
+WebUI.sendKeys(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input_-_timeFinish'), Keys.chord(Keys.CONTROL, 'a', 
+        Keys.DELETE))
+
+WebUI.setText(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input_-_timeFinish'), '15:00')
+
+WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/h1_Silakan buat Penjadwalan Kelas Virtual dengan mengisi kolom dibawah ini'))
+
+WebUI.sendKeys(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__link'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
+
+WebUI.setText(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__link'), 'https://www.youtube.com/')
+
+WebUI.sendKeys(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input_Password_password'), Keys.chord(Keys.CONTROL, 
+        'a', Keys.DELETE))
+
+WebUI.setText(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input_Password_password'), '1234567890')
+
+WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/button_Simpan'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/Simpan - PIJAR/button_Simpan'))
+
+WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/button_Lihat Jadwal'))
+
+WebUI.setText(findTestObject('admin/Page_Class Virtual - PIJAR/input_Tambah Jadwal_search'), 'Test Virtual Kelas 100 Sementara Edit')
+
+WebUI.delay(2)
 

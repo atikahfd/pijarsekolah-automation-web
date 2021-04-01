@@ -16,9 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('admin/Page_Pengumuman - PIJAR/input_Tambah Pengumuman_search'), 'Test')
+WebUI.setText(findTestObject('admin/Page_Pengumuman - PIJAR/input_Tambah Pengumuman_search'), 'Auto Test Data Pengumuman')
 
 WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/button_Pengumuman_btnDetailTugas'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('admin/Page_Detail Pengumuman - PIJAR/button_Kembali'))
 

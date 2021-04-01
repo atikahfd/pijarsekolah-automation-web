@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>System menampilkan alert gagal</description>
+   <name>Pastikan user tidak dapat menyimpan edit syllabus jika data sudah ada</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4550a501-e848-407a-9978-e472adf52b57</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'</defaultValue>
+      <description></description>
+      <id>ded176bd-72a3-449a-b9a6-dc89801ee284</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QAlebih5MB.pdf'</defaultValue>
+      <description></description>
+      <id>c732a34d-9656-4f2a-8d29-9fbfe3a83f8d</id>
+      <masked>false</masked>
+      <name>fileLebih5Mb</name>
+   </variable>
+</TestCaseEntity>

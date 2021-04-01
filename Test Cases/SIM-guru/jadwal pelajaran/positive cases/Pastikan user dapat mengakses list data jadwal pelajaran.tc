@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User mengakses list data jadwal pelajaran</description>
+   <name>Pastikan user dapat mengakses list data jadwal pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0a8689f-9bfb-4e56-8384-21b71e5d1c42</testCaseGuid>
+</TestCaseEntity>

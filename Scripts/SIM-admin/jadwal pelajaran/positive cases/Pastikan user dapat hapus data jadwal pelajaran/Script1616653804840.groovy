@@ -20,6 +20,8 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Akademik'))
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Jadwal Pelajaran'))
 
+WebUI.setText(findTestObject('admin/Page_Jadwal Pelajaran - Pijar Sekolah/input_Tambah Data_search'), 'Rahmat')
+
 WebUI.click(findTestObject('admin/Page_Jadwal Pelajaran - Pijar Sekolah/button_Genap_btnHapus'))
 
 WebUI.verifyElementText(findTestObject('admin/Page_Jadwal Pelajaran - Pijar Sekolah/p_Kamu yakin mau hapus'), 'Kamu yakin mau hapus?')

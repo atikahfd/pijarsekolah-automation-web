@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan user dapat menampilkan detail pengumuman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7b9dbb7-fd00-4113-80cd-b8d7ca9d0897</testCaseGuid>
+</TestCaseEntity>

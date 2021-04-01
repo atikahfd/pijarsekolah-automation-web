@@ -47,3 +47,8 @@ WebUI.verifyElementText(findTestObject('admin/Page_Tambah Daftar Pelajaran - PIJ
 'User click button OK'
 WebUI.click(findTestObject('admin/Page_Tambah Daftar Pelajaran - PIJAR/button_OK'))
 
+WebUI.delay(1)
+
+'User click button Kembali'
+WebUI.click(findTestObject('admin/Page_Detail Daftar Pelajaran - PIJAR/button_Kembali'))
+

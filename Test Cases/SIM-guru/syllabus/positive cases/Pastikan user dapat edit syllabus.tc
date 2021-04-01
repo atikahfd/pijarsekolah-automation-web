@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User guru dapat mengedit syllabus</description>
+   <name>Pastikan user dapat edit syllabus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87d2a487-b76b-4a28-a710-889ddf742c69</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'</defaultValue>
+      <description></description>
+      <id>6f530909-39c1-486b-96a8-fe306ac162ab</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QAlebih5MB.pdf'</defaultValue>
+      <description></description>
+      <id>5c31d993-1cf4-4cd8-8bc0-b56d6166c699</id>
+      <masked>false</masked>
+      <name>fileLebih5Mb</name>
+   </variable>
+</TestCaseEntity>

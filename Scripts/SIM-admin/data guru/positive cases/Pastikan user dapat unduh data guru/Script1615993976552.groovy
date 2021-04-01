@@ -25,3 +25,6 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Guru'))
 'User click \'Unduh\''
 WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/div_Unduh'))
 
+'User click button unduh'
+WebUI.click(findTestObject('admin/Page_Daftar Guru - PIJAR/button_Unduh'))
+

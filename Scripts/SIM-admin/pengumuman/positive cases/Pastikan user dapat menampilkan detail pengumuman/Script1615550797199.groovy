@@ -17,22 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-admin/login/positive cases/Pastikan admin bisa login'), [('username') : 'pijarsekolahv2@gmail.com'
-        , ('password') : '123456'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-admin/email activation/Email activation user admin'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Pengumuman'))
+
+WebUI.setText(findTestObject('admin/Page_Pengumuman - PIJAR/input_Tambah Pengumuman_search'), 'Auto Test ')
 
 WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/button_Pengumuman_btnDetailTugas'))
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('admin/Page_Detail Pengumuman - PIJAR/img-eyeDetail'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('admin/Page_Detail Pengumuman - PIJAR/button_Kembali_detail'))
 

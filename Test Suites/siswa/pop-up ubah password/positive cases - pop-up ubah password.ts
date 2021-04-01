@@ -21,7 +21,19 @@
       <guid>dadd7174-7b26-4624-a434-a51ac2ad8952</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/siswa/login/positive cases/TC001-Login Siswa</testCaseId>
+      <testCaseId>Test Cases/siswa/login/positive cases/Login Siswa</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7ee79922-3afd-4482-af6c-c6da0c18dfab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4d57b71f-36f3-4e44-a132-92d4b9be27f0</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f4eee4fc-bd6b-4e99-b6a8-4db50dbb3084</guid>

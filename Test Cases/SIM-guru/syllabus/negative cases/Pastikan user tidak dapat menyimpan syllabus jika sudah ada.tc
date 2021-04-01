@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>System menampilkan alert pop-up ketika syllabus sudah ada</description>
+   <name>Pastikan user tidak dapat menyimpan syllabus jika sudah ada</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af1566c7-34c7-4957-9c64-3a5286da8bf9</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'</defaultValue>
+      <description></description>
+      <id>4ffccbd4-f947-443f-bdc7-31ac160ff3db</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QAlebih5MB.pdf'</defaultValue>
+      <description></description>
+      <id>97c09205-068c-475a-9575-de85068df836</id>
+      <masked>false</masked>
+      <name>fileLebih5Mb</name>
+   </variable>
+</TestCaseEntity>

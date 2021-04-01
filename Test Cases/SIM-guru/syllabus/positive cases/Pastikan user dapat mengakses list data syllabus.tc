@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User melihat list data syllabus</description>
+   <name>Pastikan user dapat mengakses list data syllabus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f25e8e3f-7dfe-4f2a-af65-7d37135846ae</testCaseGuid>
+</TestCaseEntity>

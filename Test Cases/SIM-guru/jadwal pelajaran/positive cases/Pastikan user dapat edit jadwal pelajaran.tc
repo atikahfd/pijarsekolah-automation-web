@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User guru dapat mengedit jadwal pelajaran</description>
+   <name>Pastikan user dapat edit jadwal pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5af0289-9380-4ddc-8090-cd834ad78cec</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'</defaultValue>
+      <description></description>
+      <id>0e6ad666-e6e5-4a62-88ca-4deb901efe73</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QAlebih5MB.pdf'</defaultValue>
+      <description></description>
+      <id>80dde38f-231e-4d56-84e4-cc961cfd181b</id>
+      <masked>false</masked>
+      <name>fileLebih5Mb</name>
+   </variable>
+</TestCaseEntity>

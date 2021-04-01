@@ -6,19 +6,19 @@
    <elementGuidId>b7ecf930-d146-4dad-b5b3-c1a4808d9114</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/main/div/div/div[2]/form/div[2]/div/div[2]/div/div/div</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Pilih Kelas (Bisa Pilih Lebih Dari 1 Kelas)' or . = 'Pilih Kelas (Bisa Pilih Lebih Dari 1 Kelas)')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.select___value-container.select___value-container--is-multi.css-1hwfws3</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Pilih Kelas (Bisa Pilih Lebih Dari 1 Kelas)' or . = 'Pilih Kelas (Bisa Pilih Lebih Dari 1 Kelas)')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/main/div/div/div[2]/form/div[2]/div/div[2]/div/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

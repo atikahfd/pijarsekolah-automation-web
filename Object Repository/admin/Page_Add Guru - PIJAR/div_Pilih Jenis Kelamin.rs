@@ -10,15 +10,15 @@
          <value>//div[@id='app']/main/div/div/div[2]/form/div/div[5]/div[2]/div/div/div</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.select___value-container.css-1hwfws3</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Pilih Jenis Kelamin' or . = 'Pilih Jenis Kelamin')]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.select___value-container.css-1hwfws3</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

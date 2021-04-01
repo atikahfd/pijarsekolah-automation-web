@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan user dapat mengakses detail orang tua</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5be8cf55-313c-435e-a2ce-c79920662ce2</testCaseGuid>
+</TestCaseEntity>

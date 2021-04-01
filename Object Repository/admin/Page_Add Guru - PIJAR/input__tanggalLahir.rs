@@ -4,23 +4,21 @@
    <name>input__tanggalLahir</name>
    <tag></tag>
    <elementGuidId>5088bf3c-101c-41a3-8673-06e1a6dddcd1</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'text' and @name = 'tanggalLahir' and @placeholder = 'Pilih Tanggal']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;tanggalLahir&quot;]</value>
+         <key>XPATH</key>
+         <value>//input[@id='dp-tanggalLahir']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='tanggalLahir']</value>
+         <key>CSS</key>
+         <value>#dp-tanggalLahir</value>
       </entry>
       <entry>
          <key>IMAGE</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,6 +40,13 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dp-tanggalLahir</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>tanggalLahir</value>
@@ -56,19 +61,47 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>16/02/2021</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[@class=&quot;_7nsRr_QjvLVS5mrhCXSdR&quot;]/form[@class=&quot;flex flex-wrap&quot;]/div[@class=&quot;w-full lg:w-1/2 lg:p-2&quot;]/div[@class=&quot;ayTJSmOMnWBPs3BtaGkss&quot;]/div[@class=&quot;NtVGj4AHlUmLsfaEJ7ejF&quot;]/div[@class=&quot;_1A2OhDosorRz8GiYAOnYCw bordered block w-full italic flex&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;react-datepicker-wrapper&quot;]/div[@class=&quot;react-datepicker__input-container&quot;]/input[1]</value>
+      <value>id(&quot;dp-tanggalLahir&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>16/02/2021</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='dp-tanggalLahir']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/div/div[2]/form/div/div[4]/div[2]/div/div/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -80,12 +113,5 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/main/div/div/form/div/div[4]/div[2]/div/div/div/div/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

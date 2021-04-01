@@ -56,14 +56,21 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-center react-datepicker-ignore-onclickoutside</value>
+      <value>text-center</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>10:00</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[@class=&quot;my-4&quot;]/div[@class=&quot;mt-6 bg-white rounded-lg shadow-lg overflow-hidden py-4 px-6&quot;]/form[1]/div[4]/div[@class=&quot;flex flex-row&quot;]/div[@class=&quot;_3c0XcVDWStl_hcfGJEvE36&quot;]/div[@class=&quot;_2-sa1mipiNscYrU8S-1kor&quot;]/div[@class=&quot;_2SJHirGoZOOzuf4GLHTzxt bordered w-20&quot;]/div[@class=&quot;react-datepicker-wrapper&quot;]/div[@class=&quot;react-datepicker__input-container&quot;]/input[@class=&quot;text-center react-datepicker-ignore-onclickoutside&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[@class=&quot;my-4&quot;]/div[@class=&quot;mt-6 bg-white rounded-lg shadow-lg overflow-hidden py-4 px-6&quot;]/form[1]/div[4]/div[@class=&quot;flex flex-row&quot;]/div[@class=&quot;_3c0XcVDWStl_hcfGJEvE36&quot;]/div[@class=&quot;_2-sa1mipiNscYrU8S-1kor&quot;]/div[@class=&quot;_2SJHirGoZOOzuf4GLHTzxt bordered w-20&quot;]/div[@class=&quot;react-datepicker-wrapper&quot;]/div[@class=&quot;react-datepicker__input-container&quot;]/input[@class=&quot;text-center&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

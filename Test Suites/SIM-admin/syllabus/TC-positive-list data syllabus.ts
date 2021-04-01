@@ -42,12 +42,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8a795207-eb3d-4bf5-9ded-f97dca43bd09</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-guru/login/positive cases/TC-Pop-up kehadiran</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>03ff7c16-c78b-4938-828f-ef7722cd335c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -55,12 +49,6 @@
    </testCaseLink>
    <testCaseLink>
       <guid>d3102452-c91e-4fbe-b264-a731e15f8ce1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/syllabus/positive cases/Pastikan user dapat menggunakan fitur search syllabus</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>63bad05f-eb28-4799-9c06-bacc21ce39a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/syllabus/positive cases/Pastikan user dapat menggunakan fitur search syllabus</testCaseId>

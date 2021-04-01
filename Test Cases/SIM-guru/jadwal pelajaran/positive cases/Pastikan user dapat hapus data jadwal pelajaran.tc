@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User guru menghapus data jadwal pelajaran</description>
+   <name>Pastikan user dapat hapus data jadwal pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8453ce69-188d-499d-8f9f-3e5e40c59ef0</testCaseGuid>
+</TestCaseEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>200310ab-44f0-49e3-8e7e-56f8685e2535</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/main/span/ul/li[3]/ul/li[2]/a/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

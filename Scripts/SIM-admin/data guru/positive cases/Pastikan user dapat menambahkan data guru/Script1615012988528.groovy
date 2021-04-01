@@ -79,5 +79,3 @@ WebUI.verifyElementText(findTestObject('admin/Page_Add Guru - PIJAR/p_Profil Gur
 'User click button "OK"'
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/button_OK'))
 
-WebUI.refresh()
-

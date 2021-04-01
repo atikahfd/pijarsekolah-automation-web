@@ -23,6 +23,9 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Guru'))
 'User click Profil Guru on side menu'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Guru'))
 
+'User set text untuk find guru dengan nama \'Jono\''
+WebUI.setText(findTestObject('admin/Page_Daftar Guru - PIJAR/input_Tambah Data_search'), 'Jono')
+
 'Menampilkan list guru'
 WebUI.delay(1)
 
@@ -83,6 +86,4 @@ WebUI.verifyElementText(findTestObject('admin/Page_Edit Guru - PIJAR/h3_Sukses')
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/button_OK'))
 
 WebUI.delay(1)
-
-WebUI.refresh()
 

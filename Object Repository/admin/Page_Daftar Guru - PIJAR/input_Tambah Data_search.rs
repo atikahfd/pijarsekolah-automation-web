@@ -6,12 +6,12 @@
    <elementGuidId>1a50eb29-b39d-4785-9f97-7128197be72f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#search</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='search']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#search</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/span[9]/div/div/div[2]/div/div/input</value>
+      <value>//div[@id='app']/main/div/span[6]/div/div/div[2]/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +78,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/span[9]/div/div/div[2]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -27,7 +27,7 @@ WebUI.click(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/div_Semua'))
 
 WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input__judul'), 'Auto Test Data Pengumuman')
 
-WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input__tanggal'), '30/03/2021')
+WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input__tanggal'), '30/04/2021')
 
 WebUI.click(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/div_30'))
 

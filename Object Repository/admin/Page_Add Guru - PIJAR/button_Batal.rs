@@ -6,12 +6,12 @@
    <elementGuidId>064ee750-291a-412e-92fc-718446367a76</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#button-kembali</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='button-kembali']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#button-kembali</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/form/div[3]/div/button</value>
+      <value>//div[@id='app']/main/div/div/div[2]/form/div[3]/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +106,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/div/form/div[3]/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

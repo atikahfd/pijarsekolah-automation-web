@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User search data syllabus</description>
+   <name>Pastikan user dapat menggunakan fitur search syllabus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e670fdf-7637-481d-b041-0fab294a6c81</testCaseGuid>
+</TestCaseEntity>

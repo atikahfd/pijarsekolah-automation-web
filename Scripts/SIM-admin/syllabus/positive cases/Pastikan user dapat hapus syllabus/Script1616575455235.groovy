@@ -20,6 +20,8 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Akademik'))
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_SyllabusRPP'))
 
+WebUI.setText(findTestObject('admin/Page_Syllabus - Pijar Sekolah/input_Semua Kelas_search'), 'Rahmat')
+
 WebUI.click(findTestObject('admin/Page_Syllabus - Pijar Sekolah/button_hapusSetelahEdit'))
 
 WebUI.verifyElementText(findTestObject('admin/Page_Syllabus - Pijar Sekolah/p_Kamu yakin mau hapus'), 'Kamu yakin mau hapus?')

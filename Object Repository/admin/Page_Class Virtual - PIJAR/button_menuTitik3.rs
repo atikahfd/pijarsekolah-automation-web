@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_menuTitik3</name>
+   <tag></tag>
+   <elementGuidId>ca172a95-2270-4d00-bc5d-49b02b4bac03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/main/div/span[4]/div/div/div[4]/div/div/table/tbody/tr/td[8]/div/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.pLbP-0jdbqExZt1jgEWD9</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/span[4]/div[1]/div[1]/div[@class=&quot;_27p9Vzqmpn_-PAf128XNE2 overflow-hidden&quot;]/div[@class=&quot;_1KYwPzP7jpQs7bvCBJ0X9i d7KzNNnmdDML0yHtXESsj&quot;]/div[1]/table[@class=&quot;_2bk-8w39AM_o_zOqlN-e2u _29lmePhVg0aamvZFs3c9jw&quot;]/tbody[1]/tr[1]/td[@class=&quot;text-left whitespace-no-wrap  break-words&quot;]/div[1]/div[@class=&quot;_2cI9RBUOaiCKuuBYqzW1If&quot;]/button[@class=&quot;pLbP-0jdbqExZt1jgEWD9&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pLbP-0jdbqExZt1jgEWD9</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/span[4]/div[1]/div[1]/div[@class=&quot;_27p9Vzqmpn_-PAf128XNE2 overflow-hidden&quot;]/div[@class=&quot;_1KYwPzP7jpQs7bvCBJ0X9i d7KzNNnmdDML0yHtXESsj&quot;]/div[1]/table[@class=&quot;_2bk-8w39AM_o_zOqlN-e2u _29lmePhVg0aamvZFs3c9jw&quot;]/tbody[1]/tr[1]/td[@class=&quot;text-left whitespace-no-wrap  break-words&quot;]/div[1]/div[@class=&quot;_2cI9RBUOaiCKuuBYqzW1If&quot;]/button[@class=&quot;pLbP-0jdbqExZt1jgEWD9&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/span[4]/div/div/div[4]/div/div/table/tbody/tr/td[8]/div/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='password'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Virtual Kelas 100 Sementara Add'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[8]/div/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/span[4]/div/div/div[3]/div/div/table/tbody/tr/td[8]/div/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Virtual Kelas 100 Sementara'])[1]/following::button[1]</value>
+   </webElementXpaths>
+</WebElementEntity>

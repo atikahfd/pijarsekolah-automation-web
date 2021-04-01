@@ -30,13 +30,24 @@ WebUI.click(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/div_Pilih
 
 WebUI.click(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/div_V-A'))
 
-WebUI.click(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/div_Pilih Nama Wali Kelas'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/div_PilihWalikelas'))
 
 WebUI.click(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/div_Rahmat'))
 
 WebUI.click(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/div_Pilih Semester'))
 
 WebUI.click(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/div_Genap'))
+
+WebUI.uploadFile(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/input file'), fileLebih5Mb)
+
+WebUI.click(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/button_Simpan'))
+
+WebUI.verifyElementText(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/span_Lampiran tidak boleh melebihi 5MB'), 
+    'Lampiran tidak boleh melebihi 5MB')
+
+WebUI.click(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/img___hapusFile'))
 
 WebUI.uploadFile(findTestObject('admin/Page_Tambah Syllabus - Pijar Sekolah/input file'), file)
 

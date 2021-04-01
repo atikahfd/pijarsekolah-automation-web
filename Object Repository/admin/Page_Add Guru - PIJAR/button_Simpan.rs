@@ -6,12 +6,12 @@
    <elementGuidId>7f427380-ccbc-4614-8883-f1bafdf37b28</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#button-submit</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='button-submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#button-submit</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/form/div[3]/div[2]/button</value>
+      <value>//div[@id='app']/main/div/div/div[2]/form/div[3]/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +113,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/div/form/div[3]/div[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ed8c911e-94c8-4235-bc83-bbc2c4702cb7</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'</defaultValue>
+      <description></description>
+      <id>fae6e79e-44b3-45ff-b5c4-7d50055bed24</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QAlebih5MB.pdf'</defaultValue>
+      <description></description>
+      <id>789146ac-379c-4d56-9ed2-17b6618f0903</id>
+      <masked>false</masked>
+      <name>fileLebih5Mb</name>
+   </variable>
 </TestCaseEntity>

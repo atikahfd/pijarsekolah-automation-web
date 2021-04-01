@@ -42,7 +42,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fb60e69-6d63-496d-86bb-da7eaac83240</guid>
+      <guid>dd0c79dd-755a-41d2-9724-82e3174fdb5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/syllabus/positive cases/Pastikan user dapat menambahkan syllabus</testCaseId>
@@ -51,6 +51,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>4bcb5b56-d42c-4d26-9a60-3f97ff009d96</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>789146ac-379c-4d56-9ed2-17b6618f0903</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Mencoba Menambah Virtual Tugas Dengan Automatic Test</value>
+      <value>Test Virtual Kelas 100 Sementara Add</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

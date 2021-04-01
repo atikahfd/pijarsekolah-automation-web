@@ -16,30 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-guru/login/positive cases/Pastikan guru bisa login'), [('username') : 'jono@gmail.com'
-        , ('password') : '160294'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('SIM-guru/login/positive cases/Pop-up kehadiran'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('guru/Page_Beranda - PIJAR/span_Data Guru'))
-
-WebUI.click(findTestObject('guru/Page_Beranda - PIJAR/span_Profil Guru'))
-
-WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_Jono'), 'Jono')
-
-WebUI.verifyElementText(findTestObject('guru/Page_Daftar Guru - PIJAR/td_jonogmailcom'), 'jono@gmail.com')
-
-WebUI.refresh()
-
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Kelas Virtual'))
 
-WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/Halaman Kelas Virtual'))
+WebUI.delay(1)
 
-WebUI.focus(findTestObject('admin/Page_Class Virtual - PIJAR/Tombol/button_titik_tiga'))
+WebUI.setText(findTestObject('admin/Page_Class Virtual - PIJAR/input_Tambah Jadwal_search'), 'Test Virtual Kelas 100 Sementara')
 
-WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/Tombol/button_Masuk'))
+WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/button_menuTitik3'))
+
+WebUI.click(findTestObject('admin/Page_Class Virtual - PIJAR/button_Masuk'))
 

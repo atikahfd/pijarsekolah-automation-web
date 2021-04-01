@@ -20,5 +20,7 @@ WebUI.setText(findTestObject('admin/Page_Syllabus - Pijar Sekolah/input_Semua Ke
 
 WebUI.click(findTestObject('admin/Page_Syllabus - Pijar Sekolah/button_Genap_btnDetailKelas'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('admin/Page_Detail Syllabus - Pijar Sekolah/a_Kembali'))
 

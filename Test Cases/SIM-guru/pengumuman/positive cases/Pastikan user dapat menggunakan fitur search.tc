@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User admin search data pengumuman</description>
+   <name>Pastikan user dapat menggunakan fitur search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>563ad35d-5f65-48a1-9880-272a473850cf</testCaseGuid>
+</TestCaseEntity>

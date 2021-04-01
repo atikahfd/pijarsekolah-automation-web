@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User guru dapat search mata pelajaran</description>
+   <name>Pastikan user dapat menggunakan fitur search mata pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef5fdc96-24ec-4255-8cb3-19b9932673b5</testCaseGuid>
+</TestCaseEntity>

@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Pengumuman'))
 
+WebUI.setText(findTestObject('admin/Page_Pengumuman - PIJAR/input_Tambah Pengumuman_search'), 'Pengumuman Hari Ini Libur')
+
 WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/button_Pengumuman_btnHApus'))
 
 WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/button_Hapus'))

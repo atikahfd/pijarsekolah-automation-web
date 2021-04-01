@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User guru login dengan email yang sudah di ganti</description>
+   <name>Pastikan guru bisa login - email baru</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e063858d-fc01-4a50-b98f-0f5a0258706a</testCaseGuid>
+   <variable>
+      <defaultValue>'jona@gmail.com'</defaultValue>
+      <description></description>
+      <id>b39fd5d2-08dd-49fa-8587-9d7d688cd387</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'160294'</defaultValue>
+      <description></description>
+      <id>ccaf5d78-4b2d-4fc4-9419-78622fa04278</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

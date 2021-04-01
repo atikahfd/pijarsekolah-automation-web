@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/main/div/span[5]/div/div/div/div/button</value>
+         <value>//div[@id='app']/main/div/span[4]/div/div/div/button</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/span[5]/div[1]/div[1]/div[@class=&quot;w-full flex flex-wrap pb-1 pt-4&quot;]/div[@class=&quot;w-full md:w-2/3 flex p-2&quot;]/button[@class=&quot;btn inline-flex w-1/2 md:w-32 no-margin text-center&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/span[4]/div[1]/div[1]/div[@class=&quot;w-full md:w-2/3 flex p-2&quot;]/button[@class=&quot;btn inline-flex w-1/2 md:w-32 no-margin text-center&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/span[5]/div/div/div/div/button</value>
+      <value>//div[@id='app']/main/div/span[4]/div/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +92,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/span[4]/div/div/div/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/span[5]/div/div/div/div/button</value>
    </webElementXpaths>
 </WebElementEntity>

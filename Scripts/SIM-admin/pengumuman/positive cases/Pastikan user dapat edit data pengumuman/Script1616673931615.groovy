@@ -19,25 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Pengumuman'))
 
+WebUI.setText(findTestObject('admin/Page_Pengumuman - PIJAR/input_Tambah Pengumuman_search'), 'Auto Test Data Pengumuman')
+
 WebUI.click(findTestObject('admin/Page_Pengumuman - PIJAR/button_Pengumuman_btnEdit'))
 
-WebUI.click(findTestObject('admin/Page_Edit Pengumuman - PIJAR/div_Semua'))
-
-WebUI.click(findTestObject('admin/Page_Edit Pengumuman - PIJAR/div_Guru'))
+WebUI.focus(findTestObject('admin/Page_Edit Pengumuman - PIJAR/div_Semua'))
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Pengumuman - PIJAR/input__judul'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Pengumuman - PIJAR/input__judul'), 'Pengumuman Auto Test Untuk Guru')
+WebUI.setText(findTestObject('admin/Page_Edit Pengumuman - PIJAR/input__judul'), 'Pengumuman Hari Ini Libur')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Pengumuman - PIJAR/input__tanggal'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Pengumuman - PIJAR/input__tanggal'), '28/03/2021')
+WebUI.setText(findTestObject('admin/Page_Edit Pengumuman - PIJAR/input__tanggal'), '28/04/2021')
 
 WebUI.click(findTestObject('admin/Page_Edit Pengumuman - PIJAR/div_28'))
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Pengumuman - PIJAR/textarea__detail'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Pengumuman - PIJAR/textarea__detail'), 'Detail Auto Test Pengumuman Untuk Guru')
+WebUI.setText(findTestObject('admin/Page_Edit Pengumuman - PIJAR/textarea__detail'), 'Detail Pengumuman Hari Ini Libur')
 
 WebUI.click(findTestObject('admin/Page_Edit Pengumuman - PIJAR/img-deteteFile'))
 

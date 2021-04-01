@@ -34,6 +34,15 @@ WebUI.click(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/d
 
 WebUI.click(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/div_Genap'))
 
+WebUI.uploadFile(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/input-file'), fileLebih5Mb)
+
+WebUI.click(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/button_Simpan'))
+
+WebUI.verifyElementText(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/span_Lampiran tidak boleh melebihi 5MB'), 
+    'Lampiran tidak boleh melebihi 5MB')
+
+WebUI.click(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/img___hapusFile'))
+
 WebUI.uploadFile(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/input-file'), file)
 
 WebUI.click(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/button_Simpan'))

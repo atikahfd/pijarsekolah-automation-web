@@ -42,12 +42,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7f3466b-6c37-4d6c-b07d-d44fa8bd7c12</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/email activation/Email activation user admin</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>54f4cf5f-96a7-4f5b-ac7e-4744f97a11bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

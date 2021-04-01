@@ -40,5 +40,3 @@ WebUI.verifyElementText(findTestObject('admin/Page_Edit Guru - PIJAR/h3_Sukses')
 'User click button OK'
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/button_OK'))
 
-WebUI.refresh()
-

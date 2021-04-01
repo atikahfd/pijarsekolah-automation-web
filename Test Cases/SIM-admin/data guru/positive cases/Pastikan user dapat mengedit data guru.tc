@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>User admin mengedit data guru</description>
    <name>Pastikan user dapat mengedit data guru</name>
    <tag></tag>
    <comment></comment>

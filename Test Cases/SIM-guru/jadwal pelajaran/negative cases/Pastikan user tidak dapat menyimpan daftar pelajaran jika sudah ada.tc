@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan user tidak dapat menyimpan daftar pelajaran jika sudah ada</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b5ded4e-c0ce-4dfd-91ef-b888b32e05f7</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\QA.pdf'</defaultValue>
+      <description></description>
+      <id>798a830b-5d3d-4553-a384-3e658b333cee</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

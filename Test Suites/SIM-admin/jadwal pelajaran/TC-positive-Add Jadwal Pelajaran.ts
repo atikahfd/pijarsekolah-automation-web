@@ -42,12 +42,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc225e43-6af9-4262-83a9-6b39d7bb63e1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SIM-admin/email activation/Email activation user admin</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>181037e2-8551-4f72-83da-be4dd2f741a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -57,6 +51,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>fae6e79e-44b3-45ff-b5c4-7d50055bed24</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>789146ac-379c-4d56-9ed2-17b6618f0903</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -69,6 +69,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>738a14b0-65e9-4dac-a96c-29245e0f4f06</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>789146ac-379c-4d56-9ed2-17b6618f0903</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

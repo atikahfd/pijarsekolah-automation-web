@@ -10,6 +10,10 @@
          <value>(//button[@type='button'])[3]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Hapus' or . = 'Hapus')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.swal2-confirm._365fDY1D76iF2YlNmRDu0w.swal2-styled</value>
       </entry>
@@ -42,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ya, hapus</value>
+      <value>Hapus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

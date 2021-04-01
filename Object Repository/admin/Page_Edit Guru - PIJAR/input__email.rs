@@ -54,16 +54,16 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>jono@gmail.com</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_1sv9MCwqsbhSJBRi17TkPs&quot;]/form[@class=&quot;flex flex-wrap&quot;]/div[@class=&quot;w-full lg:w-1/2 lg:p-2&quot;]/div[@class=&quot;ir8EAVSRHFnI-KMJQlvoR&quot;]/div[@class=&quot;_3yYax7yws6F8GDH9HpqdBF&quot;]/input[@class=&quot;bordered block w-full&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>value</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_1sv9MCwqsbhSJBRi17TkPs&quot;]/form[@class=&quot;flex flex-wrap&quot;]/div[@class=&quot;w-full lg:w-1/2 lg:p-2&quot;]/div[@class=&quot;ir8EAVSRHFnI-KMJQlvoR&quot;]/div[@class=&quot;_3yYax7yws6F8GDH9HpqdBF&quot;]/input[@class=&quot;bordered block w-full&quot;]</value>
+      <value>jono@gmail.com</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

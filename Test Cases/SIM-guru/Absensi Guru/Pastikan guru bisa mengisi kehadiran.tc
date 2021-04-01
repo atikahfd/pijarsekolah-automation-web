@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Guru mengisi kehadiran</description>
+   <name>Pastikan guru bisa mengisi kehadiran</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ceb39446-799c-45dd-b47a-dab340d3dae6</testCaseGuid>
+</TestCaseEntity>

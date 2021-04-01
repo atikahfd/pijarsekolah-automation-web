@@ -26,3 +26,36 @@ WebUI.click(findTestObject('admin/Page_Jadwal Pelajaran - Pijar Sekolah/button_G
 
 WebUI.click(findTestObject('admin/Page_Jadwal Pelajaran - Pijar Sekolah/button_Edit'))
 
+WebUI.delay(1)
+
+WebUI.click(findTestObject('admin/Page_Edit Jadwal Pelajaran - Pijar Sekolah/div_V-A'))
+
+WebUI.click(findTestObject('admin/Page_Edit Jadwal Pelajaran - Pijar Sekolah/div_V-B'))
+
+WebUI.click(findTestObject('admin/Page_Edit Jadwal Pelajaran - Pijar Sekolah/div_Susi QA'))
+
+WebUI.click(findTestObject('admin/Page_Edit Jadwal Pelajaran - Pijar Sekolah/div_Rahmat'))
+
+WebUI.click(findTestObject('admin/Page_Edit Jadwal Pelajaran - Pijar Sekolah/div_Genap'))
+
+WebUI.click(findTestObject('admin/Page_Edit Jadwal Pelajaran - Pijar Sekolah/div_Ganjil'))
+
+WebUI.click(findTestObject('admin/Page_Edit Jadwal Pelajaran - Pijar Sekolah/img___delete file'))
+
+WebUI.uploadFile(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/input-file'), fileLebih5Mb)
+
+WebUI.click(findTestObject('admin/Page_Edit Jadwal Pelajaran - Pijar Sekolah/button_Simpan'))
+
+WebUI.verifyElementText(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/span_Lampiran tidak boleh melebihi 5MB'), 
+    'Lampiran tidak boleh melebihi 5MB')
+
+WebUI.click(findTestObject('admin/Page_Edit Jadwal Pelajaran - Pijar Sekolah/img___delete file'))
+
+WebUI.uploadFile(findTestObject('admin/Page_Tambah Jadwal Pelajaran - Pijar Sekolah/input-file'), file)
+
+WebUI.click(findTestObject('admin/Page_Edit Jadwal Pelajaran - Pijar Sekolah/button_Simpan'))
+
+WebUI.verifyElementText(findTestObject('admin/Page_Edit Jadwal Pelajaran - Pijar Sekolah/h3_Sukses'), 'Sukses!')
+
+WebUI.click(findTestObject('admin/Page_Edit Jadwal Pelajaran - Pijar Sekolah/button_OK'))
+

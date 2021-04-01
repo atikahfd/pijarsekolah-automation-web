@@ -22,7 +22,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/SIM-guru/ubah password/TC-positive-ubah password</testSuiteEntity>
+         <testSuiteEntity>Test Suites/SIM-guru/ubah password/TC-positive-ubah password guru baru</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>

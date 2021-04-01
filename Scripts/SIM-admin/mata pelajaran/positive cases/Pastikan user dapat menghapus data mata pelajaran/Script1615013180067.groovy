@@ -35,7 +35,7 @@ WebUI.verifyElementText(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/Hapu
 WebUI.verifyElementText(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/Hapus Mapel/b_Anda yakin mau hapus'), 'Anda yakin mau hapus?')
 
 'User click button Ya, Hapus'
-WebUI.click(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/button_Ya hapus'))
+WebUI.click(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/button_Hapus'))
 
 'User verifikasi pop-up \'Sukses!\''
 WebUI.verifyElementText(findTestObject('admin/Page_Daftar Pelajaran - PIJAR/Hapus Mapel/h1_Sukses'), 'Sukses!')
