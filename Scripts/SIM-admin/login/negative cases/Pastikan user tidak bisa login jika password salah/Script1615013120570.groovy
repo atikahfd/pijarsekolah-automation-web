@@ -13,13 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.refresh()
-
 'User input text username'
-WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_username'), username)
+WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_username'), 'pijarsekolahv2@gmail.com')
 
 'User input password yang salah'
-WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_password'), 'passwordsalah')
+WebUI.setText(findTestObject('admin/Page_Login/input_Ingat saya_password'), '23421222')
 
 'User click button "Masuk"'
 WebUI.click(findTestObject('admin/Page_Login/button_Masuk'))
