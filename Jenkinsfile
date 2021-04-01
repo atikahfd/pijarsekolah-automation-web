@@ -1,3 +1,5 @@
+@Library('shared-library')_
+
 pipeline {
     parameters {
         string(name: 'COLLECTION_NAME', description: 'options parse into katalon',                          defaultValue: 'regression')
