@@ -36,11 +36,6 @@ WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nip'), '1213121
 'User set text tempat lahir guru : \'Jakarta\''
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__tempatLahir'), 'Jakarta')
 
-'User set tanggal lahir guru : \'16/02/1994\''
-WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__tanggalLahir'), '16/02/1994')
-
-WebUI.delay(1)
-
 'input nik : 1990020109920004'
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nik'), '1990020109920004')
 
@@ -64,6 +59,9 @@ WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/textarea__alamat'), 'J
 
 'User set number no telp guru : \'081213124547\''
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__noTelp'), '081213124547')
+
+'User set tanggal lahir guru : \'16/02/1994\''
+WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__tanggalLahir'), '16/02/1994')
 
 'User click button "Simpan" untuk menyimpan data guru yang sudah di input'
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/button_Simpan'))
