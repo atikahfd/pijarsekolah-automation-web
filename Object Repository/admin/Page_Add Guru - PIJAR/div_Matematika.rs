@@ -20,7 +20,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='react-select-7-option-27']</value>
+         <value>//*/text()[normalize-space(.)='Matematika']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
