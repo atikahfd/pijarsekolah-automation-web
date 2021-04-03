@@ -6,6 +6,10 @@
    <elementGuidId>cd6d872d-b225-4b0a-987f-4b5ccbabc93a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Laki-laki' or . = 'Laki-laki')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#react-select-2-option-0</value>
       </entry>
@@ -13,12 +17,8 @@
          <key>XPATH</key>
          <value>//div[@id='react-select-2-option-0']</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Laki-laki' or . = 'Laki-laki')]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <value>select___option select___option--is-focused css-1n7v3ny-option</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -74,14 +74,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/form/div/div[5]/div[2]/div/div[2]/div/div</value>
+      <value>//div[@id='app']/main/div/div/div[2]/form/div/div[5]/div[2]/div/div[2]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Gender'])[1]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Jenis Kelamin'])[1]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,27 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Laki-laki']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div/div[2]/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/div/form/div/div[5]/div[2]/div/div[2]/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Gender'])[1]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

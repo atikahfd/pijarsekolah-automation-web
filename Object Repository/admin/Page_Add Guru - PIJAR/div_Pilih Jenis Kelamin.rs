@@ -6,12 +6,12 @@
    <elementGuidId>fd19704d-cc66-4608-b283-43ee15301b78</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/main/div/div/div[2]/form/div/div[5]/div[2]/div/div/div</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Pilih Jenis Kelamin' or . = 'Pilih Jenis Kelamin')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/main/div/div/div[2]/form/div/div[5]/div[2]/div/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
