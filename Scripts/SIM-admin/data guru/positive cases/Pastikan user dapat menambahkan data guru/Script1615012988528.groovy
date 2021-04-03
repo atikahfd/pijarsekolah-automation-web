@@ -12,6 +12,9 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 'User click Data Guru on side menu\r'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Guru'))
@@ -38,6 +41,8 @@ WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__tempatLahir'), 
 
 'User set tanggal lahir guru : \'16/02/1994\''
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__tanggalLahir'), '16/02/1994')
+
+WebUI.delay(1)
 
 'User input nik'
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/input__nik'))
