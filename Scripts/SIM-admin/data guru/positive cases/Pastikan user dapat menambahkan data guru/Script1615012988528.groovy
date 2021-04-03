@@ -39,6 +39,12 @@ WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__tempatLahir'), 
 'User set tanggal lahir guru : \'16/02/1994\''
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__tanggalLahir'), '16/02/1994')
 
+'User input nik'
+WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/input__nik'))
+
+'1990020109920004'
+WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nik'), '1990020109920004')
+
 'User click Pilih Jenis Kelamin untuk memilih jenis kelamin'
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_Pilih Jenis Kelamin'))
 
@@ -53,9 +59,6 @@ WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_Pilih Mata Pelajaran
 
 'User click mata pelajaran \'Matematika\''
 WebUI.click(findTestObject('admin/Page_Add Guru - PIJAR/div_Matematika'))
-
-'1990020109920004'
-WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/input__nik'), '1990020109920004')
 
 'User set textarea alamat guru : \'Jalan Perjuangan\''
 WebUI.setText(findTestObject('admin/Page_Add Guru - PIJAR/textarea__alamat'), 'Jalan perjuangan')
