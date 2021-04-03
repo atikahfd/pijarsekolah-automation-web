@@ -6,6 +6,10 @@
    <elementGuidId>113e0333-0a95-4c7a-8cf2-f0362d511136</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_7nsRr_QjvLVS5mrhCXSdR&quot;]/form[@class=&quot;flex flex-wrap&quot;]/div[@class=&quot;w-full lg:w-1/2 lg:p-2&quot;]/div[@class=&quot;T1qw8To-OEcIu1HfcexZN&quot;]/div[@class=&quot;_3inwpJiyFhEIWL0zO__m_Y&quot;]/textarea[@class=&quot;bordered block w-full&quot;][count(. | //*[@name = 'alamat' and @placeholder = 'Masukkan Alamat']) = count(//*[@name = 'alamat' and @placeholder = 'Masukkan Alamat'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//textarea[@name='alamat']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>textarea[name=&quot;alamat&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +70,7 @@
       <value>4</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

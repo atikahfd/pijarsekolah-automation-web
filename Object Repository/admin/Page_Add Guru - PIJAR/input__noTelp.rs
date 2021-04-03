@@ -6,6 +6,10 @@
    <elementGuidId>68f06f1c-b649-45b8-b9ac-dc5a9aff68f3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_7nsRr_QjvLVS5mrhCXSdR&quot;]/form[@class=&quot;flex flex-wrap&quot;]/div[@class=&quot;w-full lg:w-1/2 lg:p-2&quot;]/div[@class=&quot;_3LMXJ45PKfbNW7ABa8Fv8L&quot;]/div[@class=&quot;K-2znrQjZYVOKkZpwT7pd&quot;]/input[@class=&quot;bordered block w-full&quot;][count(. | //*[@name = 'noTelp' and @placeholder = 'Masukkan No Telepon' and @type = 'number']) = count(//*[@name = 'noTelp' and @placeholder = 'Masukkan No Telepon' and @type = 'number'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='noTelp']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>input[name=&quot;noTelp&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +70,7 @@
       <value>number</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
