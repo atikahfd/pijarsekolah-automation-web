@@ -4,4 +4,49 @@
    <name>production</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://core-tribe-edu-web-dev.vsan-apps.playcourt.id/'</initValue>
+      <name>BASEURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dtp-siswa.pijarsekolah.id'</initValue>
+      <name>BASEURL_Siswa</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://dtp-sim.pijarsekolah.id/'</initValue>
+      <name>BASEURL_SIM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pijarsekolahv2@yopmail.com'</initValue>
+      <name>usernameAdmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123456'</initValue>
+      <name>passwordAdmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'susiqa@yopmail.com'</initValue>
+      <name>usernameGuru</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'121200'</initValue>
+      <name>passwordGuru</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1213141516'</initValue>
+      <name>usernameSiswa</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1213141516'</initValue>
+      <name>passwordSiswa</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

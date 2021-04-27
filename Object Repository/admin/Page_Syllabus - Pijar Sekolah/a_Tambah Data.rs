@@ -6,12 +6,12 @@
    <elementGuidId>73614681-30be-416f-896e-32579e4c5b44</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/main/div/span[8]/div/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn inline-flex w-1/2 md:w-40 no-margin text-center</value>
+      <value>_23ce8Q_NQhcfAp_45xWs5b _3E630WT5DdrAJEWyNofMwg _3UjjiMinqs8owcnUhALDn7 btn inline-flex w-1/2 md:w-40 no-margin text-center</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/span[8]/div[@class=&quot;pt-6&quot;]/div[@class=&quot;w-full flex flex-wrap pb-1 pt-4 items-center&quot;]/div[@class=&quot;w-full md:w-auto mr-auto flex p-2&quot;]/a[@class=&quot;btn inline-flex w-1/2 md:w-40 no-margin text-center&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/span[8]/div[@class=&quot;pt-6&quot;]/div[@class=&quot;w-full flex flex-wrap pb-1 pt-4 items-center&quot;]/div[@class=&quot;w-full md:w-auto mr-auto flex p-2&quot;]/a[@class=&quot;_23ce8Q_NQhcfAp_45xWs5b _3E630WT5DdrAJEWyNofMwg _3UjjiMinqs8owcnUhALDn7 btn inline-flex w-1/2 md:w-40 no-margin text-center&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

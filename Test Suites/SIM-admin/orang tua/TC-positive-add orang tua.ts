@@ -46,5 +46,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/data orang tua/positive cases/Pastikan user dapat menambahkan data orang tua</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4dedc30f-faad-4e5c-84f9-dfcf113b0c01</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d671a156-7572-4f85-bf47-6f6a0f0c2bd1</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

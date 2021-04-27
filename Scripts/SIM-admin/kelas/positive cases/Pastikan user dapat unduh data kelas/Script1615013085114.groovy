@@ -24,5 +24,5 @@ WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/div_Unduh'))
 
 WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Unduh Data Kelas/button_Unduh'))
 
-WebUI.refresh()
+WebUI.delay(3)
 

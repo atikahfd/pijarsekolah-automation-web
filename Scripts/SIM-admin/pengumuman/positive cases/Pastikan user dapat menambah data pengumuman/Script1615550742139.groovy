@@ -31,9 +31,9 @@ WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input__tangga
 
 WebUI.click(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/div_30'))
 
-WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input_detail_kegiatan'), 'Auto Test Data Pengumuman')
+WebUI.click(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input_detail_kegiatan'))
 
-WebUI.focus(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/upload file'))
+WebUI.setText(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/input_detail_kegiatan'), 'Auto Test Data Pengumuman')
 
 WebUI.uploadFile(findTestObject('admin/Page_Tambah Pengumuman - PIJAR/upload file pengumuman'), file)
 

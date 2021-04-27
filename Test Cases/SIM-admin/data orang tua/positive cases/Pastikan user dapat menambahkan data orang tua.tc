@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2f235708-27fb-4894-a5b6-616411b06ccd</testCaseGuid>
+   <variable>
+      <defaultValue>RunConfiguration.getProjectDir() + '/cowok.png'</defaultValue>
+      <description></description>
+      <id>4dedc30f-faad-4e5c-84f9-dfcf113b0c01</id>
+      <masked>false</masked>
+      <name>fatherFoto</name>
+   </variable>
+   <variable>
+      <defaultValue>RunConfiguration.getProjectDir() + '/cewek.png'</defaultValue>
+      <description></description>
+      <id>d671a156-7572-4f85-bf47-6f6a0f0c2bd1</id>
+      <masked>false</masked>
+      <name>motherFoto</name>
+   </variable>
 </TestCaseEntity>

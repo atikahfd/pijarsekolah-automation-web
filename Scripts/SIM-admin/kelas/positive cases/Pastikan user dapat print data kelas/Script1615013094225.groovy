@@ -20,8 +20,6 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
 
-WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/div_Unduh'))
-
 WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/div_Print'))
 
 WebUI.refresh()

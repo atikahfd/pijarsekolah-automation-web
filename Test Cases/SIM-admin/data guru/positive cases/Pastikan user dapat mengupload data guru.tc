@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>6530a8cb-b8fd-4ae8-8bcc-84cd7e3b7c75</testCaseGuid>
    <variable>
-      <defaultValue>'/Dataformat-upload-guru.xlsx'</defaultValue>
+      <defaultValue>RunConfiguration.getProjectDir() + '/Data Files/format-upload-guru.xlsx'</defaultValue>
       <description></description>
       <id>c64ef03b-b430-4b23-8136-ea2191f48ffa</id>
       <masked>false</masked>

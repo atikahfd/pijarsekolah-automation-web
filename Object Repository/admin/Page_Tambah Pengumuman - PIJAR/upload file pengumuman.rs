@@ -6,16 +6,16 @@
    <elementGuidId>00ba6926-1739-4339-b42a-c22e422c4594</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/main/div/div/div[2]/div/form/div[5]/div[2]/div/div/div/label/div</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'unggah' and @type = 'file']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.w-full.h-24.inline-flex.justify-center.items-center.border-2.border-gray-200.shadow-md</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/main/div/div/div[2]/div/form/div[5]/div[2]/div/div/div/label/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,13 +33,6 @@
       <name>id</name>
       <type>Main</type>
       <value>unggah</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>accept</name>
-      <type>Main</type>
-      <value> .mp3 .mp4 .png .jpg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -4,23 +4,21 @@
    <name>div_Matematika</name>
    <tag></tag>
    <elementGuidId>f680a034-dd53-43b3-b4e8-b93b3b150757</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'select___option select___option--is-focused css-1n7v3ny-option' and (text() = 'Matematika' or . = 'Matematika')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#react-select-7-option-27</value>
+         <value>#react-select-3-option-27</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Matematika']/parent::*</value>
+         <value>//*/text()[normalize-space(.)='Matematika - MTK']/parent::*</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'react-select-3-option-27' and (text() = 'Matematika - MTK' or . = 'Matematika - MTK')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,18 +31,18 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>select___option select___option--is-focused css-1n7v3ny-option</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>react-select-7-option-27</value>
+      <value>react-select-3-option-27</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,21 +56,21 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Matematika</value>
+      <value>Matematika - MTK</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react-select-7-option-27&quot;)</value>
+      <value>id(&quot;react-select-3-option-27&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='react-select-7-option-27']</value>
+      <value>//div[@id='react-select-3-option-27']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,6 +78,48 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/main/div/div/div[2]/form/div[2]/div/div[2]/div/div[2]/div/div[28]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pendidikan Agama dan Budi Pekerti - hapus1'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SABTU 01_edit - SABTU'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bahasa Indonesia - BIND'])[1]/preceding::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Matematika - MTK']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[28]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='react-select-7-option-27']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,13 +155,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Matematika']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[28]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

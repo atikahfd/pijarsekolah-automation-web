@@ -16,18 +16,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'Pop-Up Kehadiran'
 WebUI.verifyElementText(findTestObject('guru/Page_Absensi Guru - PIJAR/h2_Isi kehadiran yuk'), 'Isi kehadiran yuk!')
 
+'User click button Isi Kehadiran'
 WebUI.click(findTestObject('guru/Page_Beranda - PIJAR/button_Isi kehadiran'))
 
+'Verify text Silahkan Isi Kehadiran'
 WebUI.verifyElementText(findTestObject('guru/Page_Absensi Guru - PIJAR/h1_Silahkan Isi Kehadiran'), 'Silahkan Isi Kehadiran')
 
+'User click button Simpan Kehadiran'
 WebUI.click(findTestObject('guru/Page_Absensi Guru - PIJAR/button_Simpan Kehadiran'))
 
-WebUI.verifyElementText(findTestObject('guru/Page_Absensi Guru - PIJAR/Sukses simpan kehadiran/h3_Sukses'), 'Sukses!')
+'Verify text sukses simpan kehadiran "Terima Kasih!"'
+WebUI.verifyElementText(findTestObject('guru/Page_Absensi Guru - PIJAR/Page_Absensi Guru - PIJAR/h1_Terima Kasih'), 'Terima Kasih!')
 
-WebUI.verifyElementText(findTestObject('guru/Page_Absensi Guru - PIJAR/Sukses simpan kehadiran/p_Anda Berhasil Mengisi Kehadiran'), 
-    'Anda Berhasil Mengisi Kehadiran.')
+'Verify text sukses simpan kehadiran "Anda Berhasil Isi Kehadiran"'
+WebUI.verifyElementText(findTestObject('guru/Page_Absensi Guru - PIJAR/Page_Absensi Guru - PIJAR/p_Anda Berhasil Isi Kehadiran'), 
+    'Anda Berhasil Isi Kehadiran')
 
-WebUI.click(findTestObject('guru/Page_Absensi Guru - PIJAR/Sukses simpan kehadiran/button_OK'))
+'User click button OK'
+WebUI.click(findTestObject('guru/Page_Absensi Guru - PIJAR/Page_Absensi Guru - PIJAR/button_OK'))
 

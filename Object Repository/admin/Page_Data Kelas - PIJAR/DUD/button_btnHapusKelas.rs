@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='XI-A'])[1]/following::button[3]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='V-Z'])[1]/following::button[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -69,7 +69,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='XI-A'])[1]/following::button[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='V-Z'])[1]/following::button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

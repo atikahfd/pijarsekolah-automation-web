@@ -6,12 +6,12 @@
    <elementGuidId>8c198139-c120-4c75-9951-9ed739d27675</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.react-datepicker__day.react-datepicker__day--030</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/main/div/div/div[2]/div/form/div[3]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[5]/div[6]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/main/div/div/div[2]/div/form/div[3]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[5]/div[3]</value>
+         <key>CSS</key>
+         <value>div.react-datepicker__day.react-datepicker__day--030.react-datepicker__day--selected</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -32,21 +32,21 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>react-datepicker__day react-datepicker__day--030</value>
+      <value>react-datepicker__day react-datepicker__day--030 react-datepicker__day--selected</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>-1</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Choose Tuesday, March 30th, 2021</value>
+      <value>Choose Friday, April 30th, 2021</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,10 +74,45 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_1xrMJuVqt3Vp7k3R8TnOpV&quot;]/div[@class=&quot;flex flex-col justify-center mt-5 lg:ml-20&quot;]/form[1]/div[@class=&quot;ayTJSmOMnWBPs3BtaGkss&quot;]/div[@class=&quot;NtVGj4AHlUmLsfaEJ7ejF&quot;]/div[@class=&quot;_1A2OhDosorRz8GiYAOnYCw w-11/12 md:w-8/12 flex&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;react-datepicker__tab-loop&quot;]/div[@class=&quot;react-datepicker-popper&quot;]/div[1]/div[@class=&quot;react-datepicker&quot;]/div[@class=&quot;react-datepicker__month-container&quot;]/div[@class=&quot;react-datepicker__month&quot;]/div[@class=&quot;react-datepicker__week&quot;]/div[@class=&quot;react-datepicker__day react-datepicker__day--030&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/div[1]/div[@class=&quot;_1xrMJuVqt3Vp7k3R8TnOpV&quot;]/div[@class=&quot;flex flex-col justify-center mt-5 lg:ml-20&quot;]/form[1]/div[@class=&quot;ayTJSmOMnWBPs3BtaGkss&quot;]/div[@class=&quot;NtVGj4AHlUmLsfaEJ7ejF&quot;]/div[@class=&quot;_1A2OhDosorRz8GiYAOnYCw w-11/12 md:w-8/12 flex&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;react-datepicker__tab-loop&quot;]/div[@class=&quot;react-datepicker-popper&quot;]/div[1]/div[@class=&quot;react-datepicker&quot;]/div[@class=&quot;react-datepicker__month-container&quot;]/div[@class=&quot;react-datepicker__month&quot;]/div[@class=&quot;react-datepicker__week&quot;]/div[@class=&quot;react-datepicker__day react-datepicker__day--030 react-datepicker__day--selected&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/div/div[2]/div/form/div[3]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[5]/div[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::div[40]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[1]/following::div[41]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/preceding::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

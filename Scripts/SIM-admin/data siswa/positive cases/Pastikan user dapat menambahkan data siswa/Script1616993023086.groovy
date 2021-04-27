@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('CustomKeyword/Full Login Admin'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Profil Siswa'))
@@ -49,6 +51,8 @@ WebUI.setText(findTestObject('admin/Page_Tambah Profil Siswa - PIJAR/textarea__a
 WebUI.click(findTestObject('admin/Page_Tambah Profil Siswa - PIJAR/div_Pilih Kelas'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('admin/Page_Tambah Profil Siswa - PIJAR/div_V-A'))
+
+WebUI.uploadFile(findTestObject('admin/Page_Tambah Profil Siswa - PIJAR/uploadFotoSiswa'), fotoSiswaBoy)
 
 WebUI.click(findTestObject('admin/Page_Tambah Profil Siswa - PIJAR/button_Simpan'))
 

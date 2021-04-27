@@ -20,7 +20,7 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
 
-WebUI.setText(findTestObject('admin/Page_Data Kelas - PIJAR/input_Tambah Data_search'), 'XI-A')
+WebUI.setText(findTestObject('admin/Page_Data Kelas - PIJAR/input_Tambah Data_search'), 'V-Z')
 
 WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/DUD/button_btnHapusKelas'))
 
@@ -29,8 +29,6 @@ WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/Delete Kel
 WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/Delete Kelas/button_Hapus'))
 
 WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/h3_Sukses'), 'Sukses!')
-
-WebUI.verifyElementText(findTestObject('admin/Page_Data Kelas - PIJAR/p_Kelas berhasil dihapus'), 'Kelas berhasil dihapus')
 
 WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/button_OK'))
 

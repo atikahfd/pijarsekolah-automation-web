@@ -24,11 +24,18 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>formatUpload</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://devsekolah-sim.pijarsekolah.id/uploads/documents/format-upload-orang-tua.xlsx</value>
+      <value>https://minio-dev.pijarsekolah.id/web-assets/assets/excel-format/format-upload-orang-tua.xlsx</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;swal2-content&quot;)/div[@class=&quot;relative py-2 flex-auto -mx-5 my-4&quot;]/div[@class=&quot;py-1&quot;]/div[@class=&quot;_2X9pYIkWVPb8cAUtBdwU03 text-gray-700 hover:text-white&quot;]/div[@class=&quot;p-3 text-left&quot;]/p[2]/a[1]</value>
+      <value>id(&quot;swal2-content&quot;)/div[@class=&quot;relative py-2 flex-auto -mx-5 my-4&quot;]/div[@class=&quot;py-1&quot;]/div[@class=&quot;_1GirE1Ree7DZ1u9PAopCcP text-gray-700 hover:text-white&quot;]/div[@class=&quot;p-3 text-left&quot;]/p[2]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://devsekolah-sim.pijarsekolah.id/uploads/documents/format-upload-orang-tua.xlsx')]</value>
+      <value>//a[contains(@href, 'https://minio-dev.pijarsekolah.id/web-assets/assets/excel-format/format-upload-orang-tua.xlsx')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +113,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://devsekolah-sim.pijarsekolah.id/uploads/documents/format-upload-orang-tua.xlsx')]</value>
    </webElementXpaths>
 </WebElementEntity>

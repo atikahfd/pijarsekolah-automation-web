@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User admin upload data orang tua</description>
+   <name>Pastikan user dapat upload data orang tua</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>184a9d4f-5cae-4c94-b365-44bd7f5abc54</testCaseGuid>
+   <variable>
+      <defaultValue>RunConfiguration.getProjectDir() + '/Data Files/format-upload-orang-tua.xlsx'</defaultValue>
+      <description></description>
+      <id>13a013aa-94da-4f7b-815f-2cf518c0995d</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/span[12]/div/div/div[2]/div/div/input</value>
+      <value>//div[@id='app']/main/div/span[8]/div/div/div[2]/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,5 +78,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/span[12]/div/div/div[2]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

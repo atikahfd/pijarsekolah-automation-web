@@ -50,11 +50,11 @@ WebUI.click(findTestObject('admin/Page_Tambah Profil Siswa - PIJAR/div_Pilih Kel
 
 WebUI.click(findTestObject('admin/Page_Tambah Profil Siswa - PIJAR/div_V-A'))
 
-WebUI.verifyElementText(findTestObject('admin/Page_Tambah Profil Siswa - PIJAR/span_Panjang nisn tidak boleh kurang dari 10 angka'), 
-    'Panjang nisn tidak boleh kurang dari 10 angka.')
+//WebUI.verifyElementText(findTestObject('admin/Page_Tambah Profil Siswa - PIJAR/span_Panjang nisn tidak boleh kurang dari 10 angka'), 
+//    'Panjang nisn tidak boleh kurang dari 10 angka.')
 
-WebUI.verifyElementText(findTestObject('admin/Page_Tambah Profil Siswa - PIJAR/span_Panjang nama tidak boleh melebihi 30 karakter'), 
-    'Panjang nama tidak boleh melebihi 30 karakter.')
+//WebUI.verifyElementText(findTestObject('admin/Page_Tambah Profil Siswa - PIJAR/span_Panjang nama tidak boleh melebihi 30 karakter'), 
+//    'Panjang nama tidak boleh melebihi 30 karakter.')
 
 WebUI.delay(2)
 

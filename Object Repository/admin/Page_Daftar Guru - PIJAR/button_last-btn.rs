@@ -13,11 +13,15 @@
          <key>CSS</key>
          <value>#last-btn</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'last-btn']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

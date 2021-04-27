@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@id='btnDownloadFile'])[4]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Kaka QA'])[1]/following::button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

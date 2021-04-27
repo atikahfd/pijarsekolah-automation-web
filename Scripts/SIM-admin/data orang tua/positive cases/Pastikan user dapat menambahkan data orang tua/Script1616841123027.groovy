@@ -42,6 +42,10 @@ WebUI.click(findTestObject('admin/Page_Tambah Orang Tua - Pijar Sekolah/div_Cari
 
 WebUI.click(findTestObject('admin/Page_Tambah Orang Tua - Pijar Sekolah/div_Kaka QA'))
 
+WebUI.uploadFile(findTestObject('admin/Page_Tambah Orang Tua - Pijar Sekolah/uploadFatherFoto'), fatherFoto)
+
+WebUI.uploadFile(findTestObject('admin/Page_Tambah Orang Tua - Pijar Sekolah/uploadMotherFoto'), motherFoto)
+
 WebUI.click(findTestObject('admin/Page_Tambah Orang Tua - Pijar Sekolah/button_Simpan'))
 
 WebUI.verifyElementText(findTestObject('admin/Page_Orang Tua - Pijar Sekolah/h3_Sukses'), 'Sukses!')

@@ -20,18 +20,18 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Orang Tua'))
 
-'User click button page 2'
-WebUI.click(findTestObject('admin/Page_Orang Tua - Pijar Sekolah/button_2'))
-
-'User click button previous'
-WebUI.click(findTestObject('admin/Page_Orang Tua - Pijar Sekolah/button_previous-btn'))
-
-'User click button Last Page'
-WebUI.click(findTestObject('admin/Page_Orang Tua - Pijar Sekolah/button_last-btn'))
-
-'User click button First Page'
-WebUI.click(findTestObject('admin/Page_Orang Tua - Pijar Sekolah/button_first-btn'))
-
-'User click button next'
-WebUI.click(findTestObject('admin/Page_Orang Tua - Pijar Sekolah/button_next-btn'))
+//'User click button page 2'
+//WebUI.click(findTestObject('admin/Page_Orang Tua - Pijar Sekolah/button_2'))
+//
+//'User click button previous'
+//WebUI.click(findTestObject('admin/Page_Orang Tua - Pijar Sekolah/button_previous-btn'))
+//
+//'User click button Last Page'
+//WebUI.click(findTestObject('admin/Page_Orang Tua - Pijar Sekolah/button_last-btn'))
+//
+//'User click button First Page'
+//WebUI.click(findTestObject('admin/Page_Orang Tua - Pijar Sekolah/button_first-btn'))
+//
+//'User click button next'
+//WebUI.click(findTestObject('admin/Page_Orang Tua - Pijar Sekolah/button_next-btn'))
 

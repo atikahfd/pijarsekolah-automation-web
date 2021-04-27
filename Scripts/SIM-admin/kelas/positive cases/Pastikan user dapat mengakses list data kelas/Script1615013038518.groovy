@@ -23,16 +23,16 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
 
 'User click button Last Page'
-WebUI.click(findTestObject('admin/Page_Kelas - Pijar Sekolah/button_Boby_last-btn'))
+WebUI.click(findTestObject('admin/Page_Kelas - Pijar Sekolah/button_last-btn'))
 
 'User click button page 2'
 WebUI.click(findTestObject('admin/Page_Kelas - Pijar Sekolah/button_2'))
 
 'User click button previous'
-WebUI.click(findTestObject('admin/Page_Kelas - Pijar Sekolah/button_Boby_previous-btn'))
+WebUI.click(findTestObject('admin/Page_Kelas - Pijar Sekolah/button_previous-btn'))
 
 'User click button next'
-WebUI.click(findTestObject('admin/Page_Kelas - Pijar Sekolah/button_Boby_next-btn'))
+WebUI.click(findTestObject('admin/Page_Kelas - Pijar Sekolah/button_next-btn'))
 
 'User click button First Page'
 WebUI.click(findTestObject('admin/Page_Kelas - Pijar Sekolah/button-first'))

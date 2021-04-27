@@ -62,9 +62,8 @@ WebUI.verifyElementText(findTestObject('admin/Page_Tambah Orang Tua - Pijar Seko
 WebUI.verifyElementText(findTestObject('admin/Page_Tambah Orang Tua - Pijar Sekolah/span_Panjang Profesi Ibu tidak boleh melebihi 40 karakter'), 
     'Panjang Profesi Ibu tidak boleh melebihi 40 karakter')
 
-WebUI.verifyElementText(findTestObject('admin/Page_Tambah Orang Tua - Pijar Sekolah/span_Panjang nomor telepon minimal 5 karakter dan maksimal 14 karakter'), 
-    'Panjang nomor telepon minimal 5 karakter dan maksimal 14 karakter')
-
+//WebUI.verifyElementText(findTestObject('admin/Page_Tambah Orang Tua - Pijar Sekolah/span_Panjang nomor telepon minimal 5 karakter dan maksimal 14 karakter'), 
+//    'Panjang nomor telepon minimal 5 karakter dan maksimal 14 karakter')
 WebUI.verifyElementText(findTestObject('admin/Page_Tambah Orang Tua - Pijar Sekolah/span_Panjang Alamat tidak boleh melebihi 200 karakter'), 
     'Panjang Alamat tidak boleh melebihi 200 karakter')
 

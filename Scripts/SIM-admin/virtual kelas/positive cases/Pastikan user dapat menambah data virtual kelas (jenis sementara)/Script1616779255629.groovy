@@ -31,7 +31,7 @@ WebUI.click(findTestObject('admin/Page_Add Kelas Virtual - PIJAR/div_Pilih Kelas
 
 WebUI.click(findTestObject('admin/Page_Add Kelas Virtual - PIJAR/div_V-A'))
 
-WebUI.setText(findTestObject('admin/Page_Add Kelas Virtual - PIJAR/input__date'), '04/04/2021')
+WebUI.setText(findTestObject('admin/Page_Add Kelas Virtual - PIJAR/input__date'), '04/05/2021')
 
 WebUI.click(findTestObject('admin/Page_Add Kelas Virtual - PIJAR/div_4'))
 
@@ -41,7 +41,7 @@ WebUI.setText(findTestObject('admin/Page_Add Kelas Virtual - PIJAR/input_-_timeF
 
 WebUI.click(findTestObject('admin/Page_Add Kelas Virtual - PIJAR/h1_Silakan buat Penjadwalan Kelas Virtual dengan mengisi kolom dibawah ini'))
 
-WebUI.setText(findTestObject('admin/Page_Add Kelas Virtual - PIJAR/input__link_kelas_virtual'), 'https://google.com')
+WebUI.setText(findTestObject('admin/Page_Add Kelas Virtual - PIJAR/input__link_kelas_virtual'), 'akulaku.com')
 
 WebUI.setText(findTestObject('admin/Page_Add Kelas Virtual - PIJAR/input_Password_password'), 'password')
 

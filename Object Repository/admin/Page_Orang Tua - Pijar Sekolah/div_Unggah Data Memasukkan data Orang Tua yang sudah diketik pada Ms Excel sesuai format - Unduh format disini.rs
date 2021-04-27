@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>_2X9pYIkWVPb8cAUtBdwU03 text-gray-700 hover:text-white</value>
+      <value>_1GirE1Ree7DZ1u9PAopCcP text-gray-700 hover:text-white</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;swal2-content&quot;)/div[@class=&quot;relative py-2 flex-auto -mx-5 my-4&quot;]/div[@class=&quot;py-1&quot;]/div[@class=&quot;_2X9pYIkWVPb8cAUtBdwU03 text-gray-700 hover:text-white&quot;]</value>
+      <value>id(&quot;swal2-content&quot;)/div[@class=&quot;relative py-2 flex-auto -mx-5 my-4&quot;]/div[@class=&quot;py-1&quot;]/div[@class=&quot;_1GirE1Ree7DZ1u9PAopCcP text-gray-700 hover:text-white&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,6 +50,34 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='swal2-content']/div/div[2]/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::div[11]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[20]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,12 +99,5 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[7]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/div[2]/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

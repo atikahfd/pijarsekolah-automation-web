@@ -6,15 +6,18 @@
    <elementGuidId>81eced90-ec2e-42e4-b141-f000e723efe4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/main/div/span[8]/div/div/div/button</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Tambah Data' or . = 'Tambah Data')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

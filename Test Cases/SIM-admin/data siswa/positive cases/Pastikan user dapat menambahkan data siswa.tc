@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1956210c-f170-4644-b1bc-5f0f7ab1d0c7</testCaseGuid>
+   <variable>
+      <defaultValue>RunConfiguration.getProjectDir() + '/cowok.png'</defaultValue>
+      <description></description>
+      <id>6e1e4687-fb4c-4e2f-849c-f4c97c658e58</id>
+      <masked>false</masked>
+      <name>fotoSiswaBoy</name>
+   </variable>
+   <variable>
+      <defaultValue>RunConfiguration.getProjectDir() + '/cewek.png'</defaultValue>
+      <description></description>
+      <id>85bb22a6-4dc1-4af7-8460-4fd83e2d1e5f</id>
+      <masked>false</masked>
+      <name>fotoSiswaGirl</name>
+   </variable>
 </TestCaseEntity>

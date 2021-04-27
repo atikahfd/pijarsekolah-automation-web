@@ -6,12 +6,12 @@
    <elementGuidId>ad2d5c08-63d6-49f7-9653-8301bbdbd216</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.VYRmo8mQqfHVFbllzg15</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@value='']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.VYRmo8mQqfHVFbllzg15</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/span[12]/div[1]/div[@class=&quot;my-4&quot;]/div[@class=&quot;w-full flex flex-wrap justify-between&quot;]/div[@class=&quot;w-full lg:w-4/12&quot;]/div[@class=&quot;_3H89I4xhRWztWW_iMP7kd9 _36Z0Gg_tqSRrAqGtbr7Saj undefined&quot;]/input[@class=&quot;VYRmo8mQqfHVFbllzg15&quot;]</value>
+      <value>id(&quot;app&quot;)/main[@class=&quot;aNWPbcduxteqYl7DfDJiY&quot;]/div[@class=&quot;container mx-auto&quot;]/span[8]/div[1]/div[@class=&quot;mx-2 my-4&quot;]/div[@class=&quot;w-full flex flex-wrap justify-between&quot;]/div[@class=&quot;w-full lg:w-4/12&quot;]/div[@class=&quot;_3H89I4xhRWztWW_iMP7kd9 _36Z0Gg_tqSRrAqGtbr7Saj undefined&quot;]/input[@class=&quot;VYRmo8mQqfHVFbllzg15&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/span[12]/div/div/div/div[2]/div/input</value>
+      <value>//div[@id='app']/main/div/span[8]/div/div/div/div[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,5 +71,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/main/div/span[12]/div/div/div/div[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

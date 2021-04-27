@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan user dapat print data orang tua</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80af433a-e092-4ab6-827f-90a80b499e73</testCaseGuid>
+</TestCaseEntity>

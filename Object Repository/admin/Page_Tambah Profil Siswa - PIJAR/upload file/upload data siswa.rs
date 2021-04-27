@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'file' and @id = 'upload-data']</value>
+         <value>//*[@type = 'file' and @id = 'upload-data-siswa']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>upload-data</value>
+      <value>upload-data-siswa</value>
    </webElementProperties>
 </WebElementEntity>

@@ -6,17 +6,10 @@
    <comment></comment>
    <testCaseGuid>bbb22f49-6b4b-4801-bf5d-bac2e805617a</testCaseGuid>
    <variable>
-      <defaultValue>'C:\\\\Users\\\\Rahmat Prastyo\\\\Documents\\\\file pijar sekolah\\\\format-upload-kelas.xlsx'</defaultValue>
+      <defaultValue>RunConfiguration.getProjectDir() + '/Data Files/format-upload-kelas.xlsx'</defaultValue>
       <description></description>
       <id>25dfa0ec-8127-47b7-ad58-9c33560da1c7</id>
       <masked>false</masked>
       <name>file</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Upload Data/Upload-Data-Kelas')</defaultValue>
-      <description></description>
-      <id>738fd22e-8a93-4a60-8303-5de8a9447236</id>
-      <masked>false</masked>
-      <name>file2</name>
    </variable>
 </TestCaseEntity>

@@ -10,12 +10,12 @@
          <value>//div[@id='app']/main/span/ul/li[4]/a/div/div[2]/span</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Kelas Virtual' or . = 'Kelas Virtual')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Kelas Virtual' or . = 'Kelas Virtual')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -74,14 +74,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AKM'])[2]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Siswa'])[2]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jadwal Ujian'])[2]/preceding::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil Siswa'])[2]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,14 +95,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Siswa'])[2]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AKM'])[2]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil Siswa'])[2]/preceding::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jadwal Ujian'])[2]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

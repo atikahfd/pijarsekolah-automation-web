@@ -46,5 +46,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SIM-admin/data siswa/positive cases/Pastikan user dapat menambahkan data siswa</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6e1e4687-fb4c-4e2f-849c-f4c97c658e58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>85bb22a6-4dc1-4af7-8460-4fd83e2d1e5f</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('CustomKeyword/Full Login Admin'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Kelas Virtual'))
 
 WebUI.delay(1)
@@ -39,7 +41,7 @@ WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/div_V-B'))
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__date'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__date'), '06/04/2021')
+WebUI.setText(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__date'), '06/05/2021')
 
 WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/div_6'))
 
@@ -56,7 +58,7 @@ WebUI.click(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/h1_Silakan bua
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__link'), Keys.chord(Keys.CONTROL, 'a', Keys.DELETE))
 
-WebUI.setText(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__link'), 'https://www.youtube.com/')
+WebUI.setText(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input__link'), 'youtube.com')
 
 WebUI.sendKeys(findTestObject('admin/Page_Edit Kelas Virtual - PIJAR/input_Password_password'), Keys.chord(Keys.CONTROL, 
         'a', Keys.DELETE))

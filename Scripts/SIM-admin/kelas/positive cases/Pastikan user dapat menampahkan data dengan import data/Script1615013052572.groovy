@@ -20,9 +20,9 @@ WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Siswa'))
 
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR/span_Data Kelas'))
 
-WebUI.click(findTestObject('admin/Page_Data Kelas - PIJAR/button_Tambah Data'))
+WebUI.click(findTestObject('admin/Page_Kelas - Pijar Sekolah/button_Tambah Data'))
 
-WebUI.focus(findTestObject('admin/Page_Data Kelas - PIJAR/Upload file/div___25JKTDiGAsl_gfWaijz06K'))
+WebUI.focus(findTestObject('admin/Page_Kelas - Pijar Sekolah/div_Unggah Data Memasukkan data Kelas yang sudah diketik pada Ms Excel sesuai format - Unduh format disini'))
 
 WebUI.uploadFile(findTestObject('admin/Page_Data Kelas - PIJAR/Upload file/upload data class'), file)
 
