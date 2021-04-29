@@ -21,7 +21,7 @@ WebUI.verifyElementText(findTestObject('admin/Page_Beranda - PIJAR (notifikasi e
 
 'User set text input email'
 WebUI.setText(findTestObject('admin/Page_Beranda - PIJAR (notifikasi email)/input_Daftarkan Email Aktif Kamu_swal2-input'), 
-    'pijarsekolahv2@gmail.com')
+    GlobalVariable.usernameAdmin)
 
 'User click button Kirim'
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR (notifikasi email)/button_Kirim'))
@@ -38,7 +38,4 @@ WebUI.verifyElementText(findTestObject('admin/Page_Beranda - PIJAR (notifikasi e
 WebUI.click(findTestObject('admin/Page_Beranda - PIJAR (notifikasi email)/button_Kembali (1)'))
 
 urlBeranda = WebUI.getUrl()
-
-'User di halaman beranda'
-WebUI.verifyEqual(urlBeranda, 'http://core-edu-admin-web-dev.vsan-apps.playcourt.id/beranda')
 

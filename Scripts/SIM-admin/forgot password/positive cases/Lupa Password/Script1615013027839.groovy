@@ -16,13 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('CustomKeyword/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CustomKeyword/Navigate to URL SIM'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('admin/Forgot Password/a_Lupa password'))
 
 WebUI.verifyElementText(findTestObject('admin/Forgot Password/h1_Lupa Password'), 'Lupa Password?')
 
 WebUI.verifyElementText(findTestObject('admin/Forgot Password/h2_Lupa Password Admin'), 'Lupa Password Admin')
 
-WebUI.setText(findTestObject('admin/Forgot Password/input_Lupa Password Admin_email'), 'pijarsekolahv2@gmail.com')
+WebUI.setText(findTestObject('admin/Forgot Password/input_Lupa Password Admin_email'), GlobalVariable.usernameAdmin)
 
 WebUI.click(findTestObject('admin/Forgot Password/button_Kirim'))
 
