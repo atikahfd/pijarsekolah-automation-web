@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004-Edit Profil Siswa - Gagal Edit Foto (Alert format file salah)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e621a3f-9287-4f0f-b33c-f59b0cd4ee2c</testCaseGuid>
+   <variable>
+      <defaultValue>'/Users/atikahfd/Downloads/data-siswa.xlsx'</defaultValue>
+      <description></description>
+      <id>a09b37cb-610c-447f-9c06-4a9bbe1c9ebf</id>
+      <masked>false</masked>
+      <name>fileFoto</name>
+   </variable>
+</TestCaseEntity>

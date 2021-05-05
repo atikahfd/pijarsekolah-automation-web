@@ -15,13 +15,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('siswa/login/positive cases/Login Siswa'), [('username') : '9797979797', ('password') : 'password'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('siswa/Page_Beranda - PIJAR/span_Data Siswa'))
-
-WebUI.click(findTestObject('siswa/Page_Beranda - PIJAR/span_Profil Siswa'))
-
-WebUI.delay(2)
+WebUI.click(findTestObject(null))
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002-Edit Profil Siswa - Berhasil Edit Foto</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>561e9d46-d71d-41d9-9a82-06541f273598</testCaseGuid>
+   <variable>
+      <defaultValue>'/Users/atikahfd/Downloads/aping.jpg'</defaultValue>
+      <description></description>
+      <id>86329079-fe59-402c-b18e-b7f117e72f89</id>
+      <masked>false</masked>
+      <name>fileFoto</name>
+   </variable>
+</TestCaseEntity>

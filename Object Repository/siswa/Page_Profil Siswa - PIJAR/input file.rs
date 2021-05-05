@@ -3,24 +3,11 @@
    <description></description>
    <name>input file</name>
    <tag></tag>
-   <elementGuidId>73b5ae7b-8c9a-4319-8b70-7ed92a0c21a9</elementGuidId>
-   <imagePath></imagePath>
+   <elementGuidId>2c7b2920-6ccf-4dcd-8398-9da1bd02a6d3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'file' and @id = 'attachment']</value>
+         <value>//input[@type = 'file' and @id = 'gambar']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -37,10 +24,10 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>attachment</value>
+      <value>gambar</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

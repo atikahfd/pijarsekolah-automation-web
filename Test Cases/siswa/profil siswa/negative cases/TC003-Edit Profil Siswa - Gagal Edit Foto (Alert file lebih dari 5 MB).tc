@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003-Edit Profil Siswa - Gagal Edit Foto (Alert file lebih dari 5 MB)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64b59b63-8ea8-47cf-a38f-020fdb00bd15</testCaseGuid>
+   <variable>
+      <defaultValue>'/Users/atikahfd/Downloads/gambar 6mb.jpg'</defaultValue>
+      <description></description>
+      <id>fdd6dba0-177a-4a9a-a813-1c04ccf2a57e</id>
+      <masked>false</masked>
+      <name>fileFoto</name>
+   </variable>
+</TestCaseEntity>

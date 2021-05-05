@@ -25,3 +25,13 @@ WebUI.click(findTestObject('siswa/Page_Beranda - PIJAR/span_Profil Siswa'))
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('siswa/Page_Profil Siswa - PIJAR/button_Edit'))
+
+WebUI.delay(2)
+
+WebUI.uploadFile(findTestObject('siswa/Page_Profil Siswa - PIJAR/input file'), fileFoto)
+
+WebUI.delay(1)
+
+WebUI.verifyElementText(findTestObject('siswa/Page_Profil Siswa - PIJAR/span_Format Gambar salah'), 'Format Gambar salah!')
+
